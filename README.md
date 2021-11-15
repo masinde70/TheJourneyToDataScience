@@ -3,4 +3,9 @@
 - Decorators
 - Containers
 - Collections
+- Files
+- Closures
+- Ineheritence
+- Functions
+- Context Managers
 - 
