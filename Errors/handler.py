@@ -7,8 +7,8 @@ def main():
     number = randrange(100)
     while True:
         try:
-            guess = int(input("? "))
-        except:
+            guess = foo(input("? "))
+        except ValueError:
             continue
         if guess == number:
             print("You win!")
