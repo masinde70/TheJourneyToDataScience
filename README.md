@@ -1,4 +1,4 @@
-# TheJourney To DataScience and ML Engineering
+# The Journey To DataScience and ML Engineering
 - Error handling
 - Decorators
 - Containers
