@@ -8,4 +8,11 @@
 - Inheritance
 - Functions
 - Context Managers
+- Strings and representations
+- Organizing large functions
+- Numpy
+- Tensorflow
+- Visualizations
+- NLP
+- DeepLearning
 - 
