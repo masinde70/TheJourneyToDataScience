@@ -5,7 +5,7 @@
 - Collections
 - Files
 - Closures
-- Ineheritence
+- Inheritance
 - Functions
 - Context Managers
 - 
