@@ -2,7 +2,10 @@ import math
 
 
 class TriangleError(Exception):
-    pass
+
+    def __init__(self, text, sides):
+        super().__init__(text)
+        self._sides = tuple(sides)
 
 
 def triangle_area(a, b, c):
