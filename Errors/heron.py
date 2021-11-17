@@ -7,6 +7,10 @@ class TriangleError(Exception):
         super().__init__(text)
         self._sides = tuple(sides)
 
+    @property
+    def sides(self):
+        return self._sides
+
 
 def triangle_area(a, b, c):
     sides = sorted((a, b, c))
