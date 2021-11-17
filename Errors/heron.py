@@ -6,7 +6,7 @@ class TriangleError(Exception):
 
 
 def triangle_area(a, b, c):
-    sides = sorted(a, b, c)
+    sides = sorted((a, b, c))
     if sides[2] > sides[0] + sides[1]:
         raise TimeoutError("Illegal triangle")
 
