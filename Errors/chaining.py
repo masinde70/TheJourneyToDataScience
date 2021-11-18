@@ -15,3 +15,12 @@ def inclination(dx, dy):
         raise InclinationError("Slope cannot be vertical") from e
 
 
+def main():
+    try:
+        inclination(0, 5)
+    except InclinationError as e:
+        print(e.__traceback__)
+
+if __name__ == '__main__':
+    main()
+    print("Finished")
