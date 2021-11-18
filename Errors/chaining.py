@@ -9,6 +9,9 @@ def inclination(dx, dy):
     """ The function returns the slope in degrees given the horizontal and vertical distance components
 
     """
-    return math.degrees(math.atan(dx / dy))
+    try:
+        return math.degrees(math.atan(dx / dy))
+    except ZeroDivisionError as e:
+        raise InclinationError("Slope cannot be vertical") from e
 
 
