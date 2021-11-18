@@ -1,4 +1,5 @@
 import math
+import sys
 
 
 class TriangleError(Exception):
@@ -26,3 +27,11 @@ def triangle_area(a, b, c):
     p = (a + b + c) / 2
     a = math.sqrt(p * (p - a) * (p - b) * (p - c))
     return a
+
+
+def main():
+    try:
+        a = triangle_area(3, 4, 10)
+        print(a)
+    except TriangleError as e:
+        print(e, file=sys.stdin)
