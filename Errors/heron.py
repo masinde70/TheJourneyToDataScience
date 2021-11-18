@@ -1,3 +1,4 @@
+import io
 import math
 import sys
 
@@ -34,4 +35,12 @@ def main():
         a = triangle_area(3, 4, 10)
         print(a)
     except TriangleError as e:
-        print(e, file=sys.stdin)
+        try:
+            print(e, file=sys.stdin)
+        except io.UnsupportedOperation as f:
+            print(e)
+            print(f)
+            print(f.__context__ is e)
+
+if __name__ == '__main__':
+    main()
