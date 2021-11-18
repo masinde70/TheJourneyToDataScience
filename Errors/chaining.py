@@ -1,4 +1,5 @@
 import math
+import traceback
 
 
 class InclinationError(Exception):
@@ -20,6 +21,7 @@ def main():
         inclination(0, 5)
     except InclinationError as e:
         print(e.__traceback__)
+        traceback.print_tb(e.__traceback__)
 
 if __name__ == '__main__':
     main()
