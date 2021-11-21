@@ -305,6 +305,11 @@ class TestSetRelationalMethods(unittest.TestCase):
         t = [1, 2, 3]
         self.assertTrue(s.issuperset(t))
 
+    def test_issuperset_negative(self):
+        s = SortedSet({1, 2})
+        t = [1, 2, 3]
+        self.assertFalse(s.issuperset(t))
+
 
 
 
