@@ -88,6 +88,9 @@ class TestIterableProtocol(unittest.TestCase):
             self.assertEqual(item, expected[index])
             index += 1
 
+    def test_protocol(self):
+        self.assertTrue(issubclass(SortedSet, Iterable))
+
 
 class TestSequenceProtocol(unittest.TestCase):
     def setUp(self):
