@@ -345,6 +345,11 @@ class TestSetOperationsMethods(unittest.TestCase):
         t = [2, 3, 4]
         self.assertEqual(s.union(t), SortedSet({1, 2, 3, 4}))
 
+    def test_symmetric_difference(self):
+        s = SortedSet({1, 2, 3})
+        t = [2, 3, 4]
+        self.assertEqual(s.symmetric_difference(t), SortedSet({1, 4}))
+
 
 
 
