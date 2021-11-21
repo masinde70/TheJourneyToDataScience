@@ -10,4 +10,4 @@ class SortedSet:
         return len(self._items)
 
     def __iter__(self):
-        return iter(self._items)
+        yield from self._items
