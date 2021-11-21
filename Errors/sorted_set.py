@@ -5,3 +5,6 @@ class SortedSet:
 
     def __contains__(self, item):
         return item in self._items
+
+    def __len__(self):
+        return len(self._items)
