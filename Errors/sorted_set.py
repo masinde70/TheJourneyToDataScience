@@ -62,3 +62,6 @@ class SortedSet(Sequence, Set):
 
     def union(self, iterable):
         return self | SortedSet(iterable)
+
+    def symmetric_difference(self, iterable):
+        return self ^ SortedSet(iterable)
