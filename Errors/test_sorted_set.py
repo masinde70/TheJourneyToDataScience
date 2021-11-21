@@ -64,6 +64,9 @@ class TestSizedProtocol(unittest.TestCase):
         s = SortedSet([5, 5, 5])
         self.assertEqual(len(s), 1)
 
+    def test_protocol(self):
+        self.assertTrue(issubclass(SortedSet, Sized))
+
 
 class TestIterableProtocol(unittest.TestCase):
     def setUp(self):
