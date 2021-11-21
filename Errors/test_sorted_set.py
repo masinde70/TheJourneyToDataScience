@@ -355,6 +355,11 @@ class TestSetOperationsMethods(unittest.TestCase):
         t = [2, 3, 4]
         self.assertEqual(s.symmetric_difference(t), SortedSet({1, 4}))
 
+    def test_isdisjoint_positive(self):
+        s = SortedSet({1, 2, 3})
+        t = [4, 5, 6]
+        self.assertTrue(s.isdisjoint(t))
+
 
 
 
