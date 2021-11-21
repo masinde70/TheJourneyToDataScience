@@ -225,5 +225,18 @@ class TestInequalityProtocol(unittest.TestCase):
         s = SortedSet([10, 11, 12])
         self.assertFalse(s != s)
 
+
+class TestRelationalSetProtocol(unittest.TestCase):
+    def test_lt_positive(self):
+        s = SortedSet({1, 2})
+        t = SortedSet({1, 2, 3})
+        self.assertTrue(s < t)
+
+
+
+
+
+
+
 if __name__ == '__main__':
     unittest.main()

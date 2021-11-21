@@ -50,3 +50,5 @@ class SortedSet(Sequence):
 
     def __rmul__(self, lhs):
         return self * lhs
+
+
