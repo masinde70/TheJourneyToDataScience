@@ -47,3 +47,6 @@ class SortedSet(Sequence):
 
     def __add__(self, rhs):
         return SortedSet(chain(self._items, rhs._items))
+
+    def __rmul__(self, lhs):
+        return self * lhs
