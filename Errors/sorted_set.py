@@ -18,3 +18,11 @@ class SortedSet:
 
     def __repr__(self):
         return "SortedSet({})".format(repr(self._items) if self._items else '')
+
+    def __eq__(self, rhs):
+        return self._items == rhs._items
+
+    def __eq__(self, rhs):
+        if not isinstance(rhs, SortedSet):
+            return NotImplemented
+        return self._items == rhs._items
