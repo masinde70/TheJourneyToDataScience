@@ -321,6 +321,17 @@ class TestOperationsSetProtocol(unittest.TestCase):
     def test_union(self):
         s = SortedSet({1, 2, 3})
         t = SortedSet({2, 3, 4})
+        self.assertEqual(s | t, SortedSet({1, 2, 3, 4}))
+
+    def test_symmetric_difference(self):
+        s = SortedSet({1, 2, 3})
+        t = SortedSet({2, 3, 4})
+        self.assertEqual(s ^ t, SortedSet({1, 4}))
+
+    def test_difference(self):
+        s = SortedSet({1, 2, 3})
+        t = SortedSet({2, 3, 4})
+        self.assertEqual(s - t, SortedSet({1}))
 
 
 
