@@ -280,6 +280,16 @@ class TestRelationalSetProtocol(unittest.TestCase):
 
 class TestSetRelationalMethods(unittest.TestCase):
 
+    def test_issubset_proper_positive(self):
+        s = SortedSet({1, 2})
+        t = [1, 2, 3]
+        self.assertTrue(s.issubset(t))
+
+    def test_issubset_positive(self):
+        s = SortedSet({1, 2, 3})
+        t = [1, 2, 3]
+        self.assertTrue(s.issubset(t))
+
 
 
 
