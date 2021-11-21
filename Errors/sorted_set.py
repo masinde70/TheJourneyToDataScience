@@ -57,3 +57,5 @@ class SortedSet(Sequence, Set):
     def issuperset(self, iterable):
         return self >= SortedSet(iterable)
 
+    def intersection(self, iterable):
+        return self & SortedSet(iterable)
