@@ -59,3 +59,6 @@ class SortedSet(Sequence, Set):
 
     def intersection(self, iterable):
         return self & SortedSet(iterable)
+
+    def union(self, iterable):
+        return self | SortedSet(iterable)
