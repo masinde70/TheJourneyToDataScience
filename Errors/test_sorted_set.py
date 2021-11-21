@@ -158,6 +158,9 @@ class TestSequenceProtocol(unittest.TestCase):
         s = SortedSet([1, 5, 7, 9])
         self.assertEqual(s.count(7), 1)
 
+    def test_protocol(self):
+        self.assertTrue(issubclass(SortedSet, Sequence))
+
 
 class TestReprProtocol(unittest.TestCase):
     def test_repr_empty(self):
