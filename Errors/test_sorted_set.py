@@ -201,6 +201,14 @@ class TestEqualityProtocol(unittest.TestCase):
         s = SortedSet([10, 11, 12])
         self.assertTrue(s == s)
 
+    def test_repetition_zero_right(self):
+        s = SortedSet([4, 5, 6])
+        self.assertEqual(s * 0, SortedSet())
+
+    def test_repetition_nonzero_right(self):
+        s = SortedSet([4, 5, 6])
+        self.assertEqual(s * 100, s)
+
 
 class TestInequalityProtocol(unittest.TestCase):
 
