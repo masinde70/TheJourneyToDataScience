@@ -232,6 +232,11 @@ class TestRelationalSetProtocol(unittest.TestCase):
         t = SortedSet({1, 2, 3})
         self.assertTrue(s < t)
 
+    def test_lt_negative(self):
+        s = SortedSet({1, 2, 3})
+        t = SortedSet({1, 2, 3})
+        self.assertFalse(s < t)
+
 
 
 
