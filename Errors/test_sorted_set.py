@@ -335,6 +335,15 @@ class TestOperationsSetProtocol(unittest.TestCase):
 
 
 class TestSetOperationsMethods(unittest.TestCase):
+    def test_intersection(self):
+        s = SortedSet({1, 2, 3})
+        t = [2, 3, 4]
+        self.assertEqual(s.intersection(t), SortedSet({2, 3}))
+
+    def test_union(self):
+        s = SortedSet({1, 2, 3})
+        t = [2, 3, 4]
+        self.assertEqual(s.union(t), SortedSet({1, 2, 3, 4}))
 
 
 
