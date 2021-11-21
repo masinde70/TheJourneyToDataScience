@@ -360,6 +360,11 @@ class TestSetOperationsMethods(unittest.TestCase):
         t = [4, 5, 6]
         self.assertTrue(s.isdisjoint(t))
 
+    def test_isdisjoint_negative(self):
+        s = SortedSet({1, 2, 3})
+        t = [3, 4, 5]
+        self.assertFalse(s.isdisjoint(t))
+
 
 
 
