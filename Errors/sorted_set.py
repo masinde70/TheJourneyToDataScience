@@ -54,4 +54,6 @@ class SortedSet(Sequence, Set):
     def issubset(self, iterable):
         return self <= SortedSet(iterable)
 
+    def issuperset(self, iterable):
+        return self >= SortedSet(iterable)
 
