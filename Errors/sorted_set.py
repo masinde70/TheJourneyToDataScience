@@ -34,3 +34,9 @@ class SortedSet(Sequence):
 
     def count(self, item):
         return int(item in self._items)
+
+    def index(self, item):
+        index = bisect_left(self._items, item)
+        if (index != len(self._items)) and self._items[index] == item:
+            return index
+        raise ValueError("{} not found".format(repr(item)))
