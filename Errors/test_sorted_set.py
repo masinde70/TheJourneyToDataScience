@@ -6,6 +6,9 @@ class TestConstruction(unittest.TestCase):
     def test_empty(self):
         s = SortedSet([])
 
+    def test_default_empty(self):
+        s = SortedSet()
+
     def test_from_sequence(self):
         s = SortedSet([7, 8, 3, 1])
 
