@@ -40,6 +40,7 @@ class SortedSet(Sequence, Set):
         return all(self[i] < self[i + 1] for i in range(len(self) - 1))
 
     def count(self, item):
+        assert self._is_unique_and_sorted()
         return int(item in self._items)
 
     def index(self, item):
