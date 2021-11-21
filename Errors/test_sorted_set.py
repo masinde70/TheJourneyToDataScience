@@ -278,6 +278,7 @@ class TestRelationalSetProtocol(unittest.TestCase):
         self.assertFalse(s >= t)
 
 
+class TestSetRelationalMethods(unittest.TestCase):
 
 
 
