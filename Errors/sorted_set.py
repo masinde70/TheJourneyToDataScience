@@ -1,4 +1,7 @@
-class SortedSet:
+from collections.abc import Sequence
+
+
+class SortedSet(Sequence):
 
     def __init__(self, items=None):
         self._items = sorted(set(items)) if items is not None else []
