@@ -43,6 +43,7 @@ class SortedSet(Sequence, Set):
         return int(item in self._items)
 
     def index(self, item):
+        assert self._is_unique_and_sorted()
         index = bisect_left(self._items, item)
         if (index != len(self._items)) and self._items[index] == item:
             return index
