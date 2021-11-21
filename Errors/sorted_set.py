@@ -8,8 +8,11 @@ class SortedSet(Sequence):
         self._items = sorted(set(items)) if items is not None else []
 
     def __contains__(self, item):
-        index = bisect_left(self._items, item)
-        return (index != len(self._items)) and self._items[index] == item
+        try:
+            self.index(item)
+            return True
+        except ValueError:
+            return False
 
     def __len__(self):
         return len(self._items)
