@@ -120,5 +120,15 @@ class TestSequenceProtocol(unittest.TestCase):
     def test_slice_full(self):
         self.assertEqual(self.s[:], self.s)
 
+
+class TestReprProtocol(unittest.TestCase):
+    def test_repr_empty(self):
+        s = SortedSet()
+        self.assertEqual(repr(s), "SortedSet()")
+
+    def test_repr_one(self):
+        s = SortedSet([42, 40, 19])
+        self.assertEqual(repr(s), "SortedSet([19, 40, 42])")
+
 if __name__ == '__main__':
     unittest.main()
