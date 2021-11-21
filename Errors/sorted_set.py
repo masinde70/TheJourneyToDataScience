@@ -33,6 +33,4 @@ class SortedSet(Sequence):
         return self._items == rhs._items
 
     def count(self, item):
-        index = bisect_left(self._items, item)
-        found = (index != len(self._items)) and (self._items[index] == item)
-        return int(found)
+        return int(item in self._items)
