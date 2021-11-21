@@ -334,6 +334,7 @@ class TestOperationsSetProtocol(unittest.TestCase):
         self.assertEqual(s - t, SortedSet({1}))
 
 
+class TestSetOperationsMethods(unittest.TestCase):
 
 
 
