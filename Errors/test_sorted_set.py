@@ -1,5 +1,6 @@
 import unittest
 from sorted_set import SortedSet
+from collections.abc import Container, Iterable, Sequence, Sized
 
 
 class TestConstruction(unittest.TestCase):
@@ -41,6 +42,10 @@ class TestContainerProtocol(unittest.TestCase):
 
     def test_negative_not_contained(self):
         self.assertFalse(9 not in self.s)
+
+    def test_protocol(self):
+        self.assertTrue(issubclass(SortedSet, Container))
+
 
 class TestSizedProtocol(unittest.TestCase):
     def test_empty(self):
