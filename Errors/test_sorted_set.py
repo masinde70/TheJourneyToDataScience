@@ -366,6 +366,8 @@ class TestSetOperationsMethods(unittest.TestCase):
         self.assertFalse(s.isdisjoint(t))
 
 class TestSetProtocol(unittest.TestCase):
+    def test_protocol(self):
+        self.assertTrue(issubclass(SortedSet, Set))
 
 
 
