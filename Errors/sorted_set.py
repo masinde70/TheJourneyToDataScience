@@ -11,3 +11,6 @@ class SortedSet:
 
     def __iter__(self):
         yield from self._items
+
+    def __getitem__(self, index):
+        return self._items[index]
