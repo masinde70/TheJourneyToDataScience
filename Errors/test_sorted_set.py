@@ -114,5 +114,11 @@ class TestSequenceProtocol(unittest.TestCase):
     def test_slice_empty(self):
         self.assertEqual(self.s[10:], SortedSet())
 
+    def test_slice_arbitrary(self):
+        self.assertEqual(self.s[2:4], SortedSet([9, 13]))
+
+    def test_slice_full(self):
+        self.assertEqual(self.s[:], self.s)
+
 if __name__ == '__main__':
     unittest.main()
