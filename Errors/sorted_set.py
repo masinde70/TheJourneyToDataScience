@@ -36,6 +36,9 @@ class SortedSet(Sequence, Set):
             return NotImplemented
         return self._items == rhs._items
 
+    def _is_unique_and_sorted(self):
+        return all(self[i] < self[i + 1] for i in range(len(self) - 1))
+
     def count(self, item):
         return int(item in self._items)
 
