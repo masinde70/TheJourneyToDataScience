@@ -311,6 +311,10 @@ class TestSetRelationalMethods(unittest.TestCase):
         self.assertFalse(s.issuperset(t))
 
 
+class TestOperationsSetProtocol(unittest.TestCase):
+
+
+
 
 
 
