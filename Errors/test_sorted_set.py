@@ -365,10 +365,10 @@ class TestSetOperationsMethods(unittest.TestCase):
         t = [3, 4, 5]
         self.assertFalse(s.isdisjoint(t))
 
+
 class TestSetProtocol(unittest.TestCase):
     def test_protocol(self):
         self.assertTrue(issubclass(SortedSet, Set))
-
 
 
 if __name__ == '__main__':
