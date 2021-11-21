@@ -1,9 +1,9 @@
-from collections.abc import Sequence
+from collections.abc import Sequence, Set
 from bisect import bisect_left
 from itertools import chain
 
 
-class SortedSet(Sequence):
+class SortedSet(Sequence, Set):
 
     def __init__(self, items=None):
         self._items = sorted(set(items)) if items is not None else []
@@ -50,5 +50,8 @@ class SortedSet(Sequence):
 
     def __rmul__(self, lhs):
         return self * lhs
+
+    def issubset(self, iterable):
+        return self <= SortedSet(iterable)
 
 
