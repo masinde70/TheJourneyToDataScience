@@ -65,3 +65,6 @@ class SortedSet(Sequence, Set):
 
     def symmetric_difference(self, iterable):
         return self ^ SortedSet(iterable)
+
+    def difference(self, iterable):
+        return self - SortedSet(iterable)
