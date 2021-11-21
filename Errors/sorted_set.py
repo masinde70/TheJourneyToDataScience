@@ -15,3 +15,6 @@ class SortedSet:
     def __getitem__(self, index):
         result = self._items[index]
         return SortedSet(result) if isinstance(index, slice) else result
+
+    def __repr__(self):
+        return "SortedSet({})".format(repr(self._items) if self._items else '')
