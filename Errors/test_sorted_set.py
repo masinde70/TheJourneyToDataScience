@@ -105,5 +105,14 @@ class TestSequenceProtocol(unittest.TestCase):
         with self.assertRaises(IndexError):
             self.s[-6]
 
+    def test_slice_from_start(self):
+        self.assertEqual(self.s[:3], SortedSet([1, 4, 9]))
+
+    def test_slice_to_end(self):
+        self.assertEqual(self.s[3:], SortedSet([13, 15]))
+
+    def test_slice_empty(self):
+        self.assertEqual(self.s[10:], SortedSet())
+
 if __name__ == '__main__':
     unittest.main()
