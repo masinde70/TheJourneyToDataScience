@@ -1,6 +1,6 @@
 import unittest
 from sorted_set import SortedSet
-from collections.abc import Container, Iterable, Sequence, Sized
+from collections.abc import Container, Iterable, Sequence, Sized, Set
 
 
 class TestConstruction(unittest.TestCase):
@@ -365,6 +365,7 @@ class TestSetOperationsMethods(unittest.TestCase):
         t = [3, 4, 5]
         self.assertFalse(s.isdisjoint(t))
 
+class TestSetProtocol(unittest.TestCase):
 
 
 
