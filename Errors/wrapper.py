@@ -8,7 +8,13 @@ def wrap(text, line_length):
     Returns:
         A wrapped string.
 
+    Raises:
+        ValueError:
+
     """
+    if line_length < 1:
+        raise ValueError("line_length {} is not positive".format(line_length))
+
     words = text.split()
     lines_of_words = []
     current_line_length = line_length
