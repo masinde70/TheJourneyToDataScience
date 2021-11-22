@@ -26,7 +26,7 @@ def wrap(text, line_length):
         current_line_length += len(word) + len(' ')
     lines = [' '.join(line_of_words) for line_of_words in lines_of_words]
     result = '\n'.join(lines)
-    assert all(len(line) <= line_length for line in result.splitlines())
+    assert all(len(line) <= line_length for line in result.splitlines()), "Line too long"
     return result
 
 wealth_of_nations = "The annual labour of every nation is the fund which or"\
