@@ -16,9 +16,9 @@ def wrap(text, line_length):
         if current_line_length + len(word) > line_length:
             lines_of_words.append([])
             current_line_length = 0
-            lines_of_words[-1].append(word)
-            current_line_length += len(word)
-    lines = [' '.join(lines_of_words) for lines_of_words in lines_of_words]
+        lines_of_words[-1].append(word)
+        current_line_length += len(word)
+    lines = [' '.join(line_of_words) for line_of_words in lines_of_words]
     result = '\n'.join(lines)
     assert all(len(line) <= line_length for line in result.splitlines())
     return result
