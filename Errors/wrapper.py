@@ -22,3 +22,12 @@ def wrap(text, line_length):
     result = '\n'.join(lines)
     assert all(len(line) <= line_length for line in result.splitlines())
     return result
+
+wealth_of_nations = "The annual labour of every nation is the fund which or"\
+"iginally supplies it with all the necessaries and conveniencies of life wh"\
+"ich it annually consumes, and which consist always either in the immediate"\
+" produce of that labour, or in what is purchased with that produce from ot"\
+"her nations. According, therefore, as this produce, or what is purchased w"\
+"ith it, bears a greater or smaller proportion to the number of those who a"\
+"re to consume it, the nation will be better or worse supplied with all the"\
+" necessaries and conveniencies for which it has occasion."
