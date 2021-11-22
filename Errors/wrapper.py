@@ -16,6 +16,9 @@ def wrap(text, line_length):
         raise ValueError("line_length {} is not positive".format(line_length))
 
     words = text.split()
+
+    if (max(map(len, words))) > line_length:
+        raise ValueError("line_length must be at least as long as the longest word")
     lines_of_words = []
     current_line_length = line_length
     for word in words:
