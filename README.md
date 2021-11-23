@@ -7,7 +7,8 @@
 - Closures
 - Inheritance
 - Functions
-- Context Managers
+## Context Managers
+  - Context manager represents code that runs before and after the with-stament's block
 - Strings and representations
 - Organizing large functions
 - Numpy
