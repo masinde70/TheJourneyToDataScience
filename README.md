@@ -9,7 +9,9 @@
 - Functions
 ## Context Managers
   - Context manager represents code that runs before and after the with-stament's block
-- Strings and representations
+## Strings and representations
+  - Python supports two strings representation
+  - __reper__() and __str__()
 - Organizing large functions
 - Numpy
 - Tensorflow
