@@ -13,6 +13,7 @@
   - Python supports two strings representation
   - __reper__() and __str__()
 - Organizing large functions
+## Data Science and ML
 - Numpy
 - Tensorflow
 - Visualizations
