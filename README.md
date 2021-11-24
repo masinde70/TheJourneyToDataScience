@@ -27,6 +27,7 @@ In this journey I will learn many things so can you
       * Minimize stuck time
         - get stuck?
         - move on and come back to it later
+      * Learning resources
    - Build
       * work on related projects
       * work on weeked projects
