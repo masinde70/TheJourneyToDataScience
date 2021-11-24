@@ -42,6 +42,7 @@ In this journey I will learn many things so can you
      * Write blog posts
      * Build well documented GitHub repository
 ## Data Science and ML
+
 - Numpy
 - Tensorflow
 - Visualizations
