@@ -21,6 +21,11 @@
       * Consistency
       * Accountability
    - Learn
+      * Learn just enough to start buliding
+      * Apply Pomodoro to manage learning time
+      * Minimize stuck time
+        - get stuck?
+        - move on and come back to it later
    - Build
    - Explain 
 ## Data Science and ML
