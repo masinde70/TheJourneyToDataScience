@@ -15,6 +15,11 @@
 - Organizing large functions
 ## How to learn Data Science
    - Plan
+      * Setting learning goals
+      * create your own personal curriculum
+      * Making a schedule
+      * Consistency
+      * Accountability
    - Learn
    - Build
    - Explain 
