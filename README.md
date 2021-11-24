@@ -1,4 +1,5 @@
 # The Journey To DataScience and ML Engineering
+In this journey I will learn many things so can you
 - Error handling
 - Decorators
 - Containers
