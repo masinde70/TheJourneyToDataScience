@@ -27,7 +27,11 @@
         - get stuck?
         - move on and come back to it later
    - Build
-   - Explain 
+   - Explain
+     * Explain your model to others
+     * Teach others
+     * Write blog posts
+     * Build well documented GitHub repository
 ## Data Science and ML
 - Numpy
 - Tensorflow
