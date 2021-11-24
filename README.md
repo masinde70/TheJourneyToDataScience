@@ -27,9 +27,16 @@
         - get stuck?
         - move on and come back to it later
    - Build
+      * work on related projects
+      * work on weeked projects
+      * Use public datasets or compile your own(e.g webscrapping)
+      * Compete on Kaggle
    - Explain
      * Explain your model to others
      * Teach others
+     * Mentor others
+     * Give talks at meetups, conferences and podcasts
+     * Draw infographics
      * Write blog posts
      * Build well documented GitHub repository
 ## Data Science and ML
