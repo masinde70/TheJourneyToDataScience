@@ -9,4 +9,8 @@ def logging_context_manager():
         yield "You're in a with-block"
         print('logging_context_manager: normal exit')
     except Exception:
-        print('logging_context_manager: exception exit', sys.exc_info())
+        print('logging_context_manager: exception exit',
+              sys.exc_info())
+        raise
+
+
