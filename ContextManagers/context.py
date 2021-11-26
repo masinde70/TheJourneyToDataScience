@@ -6,7 +6,7 @@ class LoggingContextManager:
 
     def __exit__(self, exc_type, exc_val, exc_tb):
         if exc_type is None:
-            print('LoggingContextManager.__exit__:'
+            print('LoggingContextManager.__exit__: '
                   'normal exit detected')
         else:
             print('LoggingContextManager.__exit__:'
