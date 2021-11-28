@@ -17,5 +17,5 @@ def logging_context_manager():
 @contextlib.contextmanager
 def nest_test(name):
     print('Entering', name)
-    yield
+    yield name
     print('Exiting', name)
