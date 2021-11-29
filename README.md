@@ -20,7 +20,7 @@ In this journey I will learn many things so can you
   - The return value of __enter__() is bound to name in the optional as-clause of a with-statement
   - contextlib provides some utilities for working with with-statements
   - contextlib.contextmanager is a decorator used for creating context-manager factories out of generator functions
-  – A contextmanager generator yields a value which will be bound to name in the optional as-clause
+  - A contextmanager generator yields a value which will be bound to name in the optional as-clause
   
   
 ## Strings and representations
