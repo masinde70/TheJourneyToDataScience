@@ -12,6 +12,11 @@ Introspection is the ability of the program to examine its own structure and sta
 A process of looking inward to perform self-examinition
 
 ## Functions
+Functions are known as callable objects
+ - Collable instances
+    * This is done through implimenting the special __call__() function on our classes
+ - lambdas
+ - 
 ## Context Managers
   - Context manager represents code that runs before and after the with-stament's block
   - Context managers are objects designed to work in with-statements
