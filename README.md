@@ -7,6 +7,8 @@ In this journey I will learn many things so can you
 - Files
 - Closures
 - Inheritance
+## Introspetion
+
 - Functions
 ## Context Managers
   - Context manager represents code that runs before and after the with-stament's block
