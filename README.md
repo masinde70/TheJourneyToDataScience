@@ -12,6 +12,7 @@ In this journey I will learn many things so can you
 I have used different python books but these three books for me stands out as giants
  1. The Python Apprentice
  2. The Python Journeyman
+ 3. The Python Master
 ## Introspetion
 Introspection is the ability of the program to examine its own structure and state.
 A process of looking inward to perform self-examinition
