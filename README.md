@@ -8,8 +8,10 @@ In this journey I will learn many things so can you
 - Closures
 - Inheritance
 ## Introspetion
+Introspection is the ability of the program to examine its own structure and state.
+A process of looking inward to perform self-examinition
 
-- Functions
+## Functions
 ## Context Managers
   - Context manager represents code that runs before and after the with-stament's block
   - Context managers are objects designed to work in with-statements
