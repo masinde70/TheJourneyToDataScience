@@ -1,4 +1,5 @@
 # The Journey To DataScience and ML Engineering
+
 In this journey I will learn many things so can you
 - Error handling
 - Decorators
@@ -7,6 +8,10 @@ In this journey I will learn many things so can you
 - Files
 - Closures
 - Inheritance
+## Python Books I am using and for me they are the best out there
+I have used different python books but these three books for me stands out as giants
+ *The Python Apprentice
+ *The Python Journeyman
 ## Introspetion
 Introspection is the ability of the program to examine its own structure and state.
 A process of looking inward to perform self-examinition
@@ -15,6 +20,7 @@ A process of looking inward to perform self-examinition
 Functions are known as callable objects
  - Collable instances
     * This is done through implimenting the special __call__() function on our classes
+    * Callable instances allow us to define "functions"
  - lambdas
  - 
 ## Context Managers
