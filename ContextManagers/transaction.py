@@ -1,3 +1,6 @@
+import contextlib
+
+
 class Connection:
     """This connection class represents some sort of database connection.
 
@@ -5,11 +8,17 @@ class Connection:
     def __init__(self):
         self.xid = 0
 
-    def _start_transaction(self):
-        print('start transaction', self.xid)
-        rslt = self.xid
-        self.xid = self.xid + 1
-        return rslt
+    @contextlib.contextmanager
+    def _start_transaction(connection):
+        tx = Transaction(connection)
+
+        try:
+            yield tx
+        except:
+            tx.rollback()
+            raise
+        tx.commit()
+
 
     def _commit_transaction(self, xid):
         print('committing transaction', xid)
