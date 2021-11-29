@@ -10,6 +10,19 @@ In this journey I will learn many things so can you
 - Functions
 ## Context Managers
   - Context manager represents code that runs before and after the with-stament's block
+  - Context managers are objects designed to work in with-statements
+  - The expression of a with-statement must evaluate to a context-manager
+  - Context managers have code that is run before and after with-blocks
+  - Context managers are particularly useful for resource management
+  - Files objects are a commonly used example of context-managers
+  - The context manager protocol involves two methods, __enter__() and __exit__()
+  - __enter__() is called before the with-block
+  - The return value of __enter__() is bound to name in the optional as-clause of a with-statement
+  - contextlib provides some utilities for working with with-statements
+  - contextlib.contextmanager is a decorator used for creating context-manager factories out of generator functions
+  - A contextmanager generator yields a value which will be bound to name in the optional as-clause
+  
+  
 ## Strings and representations
   - Python supports two strings representation
   - __reper__() and __str__()
