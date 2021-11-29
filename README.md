@@ -22,6 +22,7 @@ In this journey I will learn many things so can you
   – contextlib.contextmanager is a decorator used for creating context-manager factories out of generator functions
   – A contextmanager generator yields a value which will be bound to name in the optional as-clause
   
+  
 ## Strings and representations
   - Python supports two strings representation
   - __reper__() and __str__()
