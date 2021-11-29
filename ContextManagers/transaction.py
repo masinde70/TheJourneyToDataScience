@@ -9,7 +9,7 @@ class Connection:
         self.xid = 0
 
     @contextlib.contextmanager
-    def _start_transaction(connection):
+    def start_transaction(connection):
         tx = Transaction(connection)
 
         try:
