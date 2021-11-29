@@ -18,6 +18,9 @@ In this journey I will learn many things so can you
   - The context manager protocol involves two methods, __enter__() and __exit__()
   – __enter__() is called before the with-block
   – The return value of __enter__() is bound to name in the optional as-clause of a with-statement
+  – contextlib provides some utilities for working with with-statements
+  – contextlib.contextmanager is a decorator used for creating context-manager factories out of generator functions
+  – A contextmanager generator yields a value which will be bound to name in the optional as-clause
   
 ## Strings and representations
   - Python supports two strings representation
