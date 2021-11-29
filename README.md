@@ -24,7 +24,7 @@ Functions are known as callable objects
     * This is done through implimenting the special __call__() function on our classes
     * Callable instances allow us to define "functions"
  - lambdas
- - 
+ - Detecting Callable Objects
 ## Context Managers
   - Context manager represents code that runs before and after the with-stament's block
   - Context managers are objects designed to work in with-statements
