@@ -27,6 +27,7 @@ Functions are known as callable objects
  - Detecting Callable Objects
  - Extended Formal Paramaters Syntax
  - Extended Call Systax
+ - Transposing tables
 ## Context Managers
   - Context manager represents code that runs before and after the with-stament's block
   - Context managers are objects designed to work in with-statements
