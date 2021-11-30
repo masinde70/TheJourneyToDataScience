@@ -92,3 +92,11 @@ Functions are known as callable objects
  Feature-engine is a Python 3 package
  Can be installed using anaconda
  - $ conda install -c conda-forge feature_engine
+ ### Applications of featue engine
+  - Missing data imputation
+  - Categorical Variable Encoding
+  - Variable Transformation
+  - Variable Discretisation
+  - Outlier Handling
+  - Feature Creation
+  - Scikit-learn Wrapper
