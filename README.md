@@ -1,19 +1,25 @@
 # The Journey To DataScience and ML Engineering
 
-In this journey I will learn many things so can you
-- Error handling
-- Decorators
-- Containers
-- Collections
-- Files
-- Closures
-- Inheritance
 ## Python Books I am using and for me they are the best out there
 I have used different python books but these three books for me stands out as giants
  1. The Python Apprentice
  2. The Python Journeyman
  3. The Python Master
  4. 
+
+In this journey I will learn many things so can you
+- Error handling
+- Decorators
+- Containers
+- Collections
+- Files
+## Closures and decorators
+- Local functions
+- Closures and nested scopes
+- Functions decorators
+- Validating arguments
+- Inheritance
+
 ## Introspetion
 Introspection is the ability of the program to examine its own structure and state.
 A process of looking inward to perform self-examinition
