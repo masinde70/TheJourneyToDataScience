@@ -25,8 +25,8 @@ Functions are known as callable objects
     * Callable instances allow us to define "functions"
  - lambdas
  - Detecting Callable Objects
- - Extended Formal Paramaters
- - 
+ - Extended Formal Paramaters Syntax
+ - Extended Call Systax
 ## Context Managers
   - Context manager represents code that runs before and after the with-stament's block
   - Context managers are objects designed to work in with-statements
