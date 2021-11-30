@@ -89,3 +89,6 @@ Functions are known as callable objects
 - DeepLearning
 ## Data Science tools
 ### Feature engine
+ Feature-engine is a Python 3 package
+ Can be installed using anaconda
+ - $ conda install -c conda-forge feature_engine
