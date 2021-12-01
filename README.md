@@ -92,6 +92,12 @@ Functions are known as callable objects
  Feature-engine is a Python 3 package
  Can be installed using anaconda
  - $ conda install -c conda-forge feature_engine
+ ### Jupyter to medium
+ Publish blog posts to medium as Jupyter notebook,
+ jupyter_to_medium will automate the process of taking your Jupyter Notebook as is and publishing it as a 
+ Medium post in almost no time at all, saving huge amounts of time.
+
+
  ### Applications of featue engine
   - Missing data imputation
   - Categorical Variable Encoding
