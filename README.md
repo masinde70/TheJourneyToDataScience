@@ -100,6 +100,9 @@ Functions are known as callable objects
  - pip install jupyter_to_medium
  - conda install -c conda-forge jupyter_to_medium
  
+ ##### Automatically activated
+ You should be able to skip the next step, but if the extension is not showing up in your notebook, run the following command:
+ - jupyter bundlerextension enable --py jupyter_to_medium._bundler --sys-prefix
 
 
  ### Applications of featue engine
