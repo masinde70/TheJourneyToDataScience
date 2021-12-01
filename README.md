@@ -81,6 +81,13 @@ Functions are known as callable objects
      * Write blog posts
      * Build well documented GitHub repository
 ## Data Science and ML
+### The books 
+1. Graph Algorithms for Data Science (Tomaž Bratanič)
+2. The Hundred-Page Machine Learning Book (Andriy Burkov)
+3. Introduction to Data Science (Rafael A Irizarry)
+4. AI Crash Course (Hadelin de Ponteves)
+5. Python Machine Learning (Sebastian Raschka)
+6. Machine Learning Algorithms (Giuseppe Bonaccorso)
 
 - Numpy
 - Tensorflow
