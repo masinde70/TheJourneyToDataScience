@@ -105,6 +105,7 @@ Functions are known as callable objects
  - jupyter bundlerextension enable --py jupyter_to_medium._bundler --sys-prefix
  #### Get an Integration Token from Medium
   - Before using this package, you must request an integration token from Medium
+  -  Read the instructions here on how to get your integration token.[Documentation for Medium's OAuth2 API](https://github.com/Medium/medium-api-docs).
 
  ### Applications of featue engine
   - Missing data imputation
