@@ -108,7 +108,7 @@ Functions are known as callable objects
   -  Read the instructions here on how to get your integration token.[Documentation for Medium's OAuth2 API](https://github.com/Medium/medium-api-docs).
   -  Save your integration token
   -  Once you have your integration token, create the following folder and file in your home directory.
-  -  .jupyter_to_medium/integration_token
+     *  .jupyter_to_medium/integration_token
 
  ### Applications of featue engine
   - Missing data imputation
