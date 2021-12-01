@@ -109,6 +109,7 @@ Functions are known as callable objects
   -  Save your integration token
   -  Once you have your integration token, create the following folder and file in your home directory.
      *  .jupyter_to_medium/integration_token
+     *  If you don't save it to this file, you'll need to access it every time you make a new post.
 
  ### Applications of featue engine
   - Missing data imputation
