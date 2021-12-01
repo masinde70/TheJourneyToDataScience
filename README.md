@@ -96,6 +96,11 @@ Functions are known as callable objects
  Publish blog posts to medium as Jupyter notebook,
  jupyter_to_medium will automate the process of taking your Jupyter Notebook as is and publishing it as a 
  Medium post in almost no time at all, saving huge amounts of time.
+ #### Installtion
+ - pip install jupyter_to_medium
+    or
+ - conda install -c conda-forge jupyter_to_medium
+ 
 
 
  ### Applications of featue engine
