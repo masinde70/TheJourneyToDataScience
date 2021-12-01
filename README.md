@@ -103,7 +103,8 @@ Functions are known as callable objects
  ##### Automatically activated
  You should be able to skip the next step, but if the extension is not showing up in your notebook, run the following command:
  - jupyter bundlerextension enable --py jupyter_to_medium._bundler --sys-prefix
-
+ #### Get an Integration Token from Medium
+  - Before using this package, you must request an integration token from Medium
 
  ### Applications of featue engine
   - Missing data imputation
