@@ -27,7 +27,7 @@ A process of looking inward to perform self-examinition
 >>> issubclass(type, object)
 True
 ```
-isubclass() performs introspection -t answers a question about an object in the program
+isubclass() performs introspection answers a question about an object in the program
 
 ## Functions
 Functions are known as callable objects
