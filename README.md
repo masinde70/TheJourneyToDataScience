@@ -1,6 +1,6 @@
 # The Journey To DataScience and ML Engineering
 
-## Python Books I am using and for me they are the best out there
+## Python Books I am using and for me, they are the best out there
 I have used different python books but these three books for me stands out as giants
  1. The Python Apprentice
  2. The Python Journeyman
@@ -20,22 +20,22 @@ In this journey I will learn many things so can you
 - Validating arguments
 - Inheritance
 
-## Introspetion
+## Introspection
 Introspection is the ability of the program to examine its own structure and state.
-A process of looking inward to perform self-examinition
+A process of looking inward to perform self-examination
 
 ## Functions
 Functions are known as callable objects
- - Collable instances
-    * This is done through implimenting the special __call__() function on our classes
+ - Callable instances
+    * This is done through implementing the special __call__() function on our classes
     * Callable instances allow us to define "functions"
  - lambdas
  - Detecting Callable Objects
- - Extended Formal Paramaters Syntax
- - Extended Call Systax
+ - Extended Formal Parameters Syntax
+ - Extended Call Syntax
  - Transposing tables
 ## Context Managers
-  - Context manager represents code that runs before and after the with-stament's block
+  - Context manager represents code that runs before and after the with-statement's block
   - Context managers are objects designed to work in with-statements
   - The expression of a with-statement must evaluate to a context-manager
   - Context managers have code that is run before and after with-blocks
@@ -51,7 +51,7 @@ Functions are known as callable objects
   
 ## Strings and representations
   - Python supports two strings representation
-  - __reper__() and __str__()
+  - __repr__() and __str__()
 - Organizing large functions
 
 ## Data Science and ML
@@ -70,7 +70,7 @@ Functions are known as callable objects
       * Consistency
       * Accountability
    - Learn
-      * Learn just enough to start buliding
+      * Learn just enough to start building
       * Apply Pomodoro to manage learning time
       * Minimize stuck time
         - get stuck?
@@ -78,8 +78,8 @@ Functions are known as callable objects
       * Learning resources
    - Build
       * work on related projects
-      * work on weeked projects
-      * Use public datasets or compile your own(e.g webscrapping)
+      * work on weekend projects
+      * Use public datasets or compile your own(e.g. scrapping)
       * Compete on Kaggle
    - Explain
      * Explain your model to others
@@ -104,7 +104,7 @@ It is a Python library that provides a multidimensional array object, various de
  Publish blog posts to medium as Jupyter notebook,
  jupyter_to_medium will automate the process of taking your Jupyter Notebook as is and publishing it as a 
  Medium post in almost no time at all, saving huge amounts of time.
- #### Installtion
+ #### Installation
  - pip install jupyter_to_medium
  - conda install -c conda-forge jupyter_to_medium
  
@@ -119,7 +119,7 @@ It is a Python library that provides a multidimensional array object, various de
      *  .jupyter_to_medium/integration_token
      *  If you don't save it to this file, you'll need to access it every time you make a new post.
 
- ### Applications of featue engine
+ ### Applications of feature engine
   - Missing data imputation
   - Categorical Variable Encoding
   - Variable Transformation
