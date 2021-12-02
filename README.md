@@ -23,6 +23,10 @@ In this journey I will learn many things so can you
 ## Introspetion
 Introspection is the ability of the program to examine its own structure and state.
 A process of looking inward to perform self-examinition
+```
+>>> issubclass(type, object)
+True
+```
 
 ## Functions
 Functions are known as callable objects
