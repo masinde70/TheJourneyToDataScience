@@ -22,7 +22,16 @@ In this journey I will learn many things so can you
 
 ## Introspection
 Introspection is the ability of the program to examine its own structure and state.
+<<<<<<< HEAD
 A process of looking inward to perform self-examination
+=======
+A process of looking inward to perform self-examination
+```
+>>> issubclass(type, object)
+True
+```
+isubclass() performs introspection answers a question about an object in the program
+
 
 ## Functions
 Functions are known as callable objects
@@ -127,3 +136,4 @@ It is a Python library that provides a multidimensional array object, various de
   - Outlier Handling
   - Feature Creation
   - Scikit-learn Wrapper
+  - 
