@@ -149,4 +149,5 @@ It is a Python library that provides a multidimensional array object, various de
   - Outlier Handling
   - Feature Creation
   - Scikit-learn Wrapper
-  - 
+
+
