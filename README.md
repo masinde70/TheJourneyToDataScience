@@ -22,7 +22,7 @@ In this journey I will learn many things so can you
 
 ## Introspection
 Introspection is the ability of the program to examine its own structure and state.
-<<<<<<< HEAD
+
 A process of looking inward to perform self-examination
 =======
 A process of looking inward to perform self-examination
