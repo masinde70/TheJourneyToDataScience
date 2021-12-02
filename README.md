@@ -13,6 +13,8 @@ In this journey I will learn many things so can you
 - Containers
 - Collections
 - Files
+Rule of thumb using "Easier to Ask for Forgiveness than Permission (EAFP) style programming
+using exception handlers is considered more Pythonic"
 ## Closures and decorators
 - Local functions
 - Closures and nested scopes
