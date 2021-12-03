@@ -26,7 +26,6 @@ using exception handlers is considered more Pythonic"
 Introspection is the ability of the program to examine its own structure and state.
 
 A process of looking inward to perform self-examination
-=======
 A process of looking inward to perform self-examination
 ```
 >>> issubclass(type, object)
@@ -34,6 +33,14 @@ True
 ```
 isubclass() performs introspection answers a question about an object in the program
 
+#### Signature
+The inspect module contains tools for interrogating individual functions
+It is done by retrieving a Signature object function
+
+``` 
+>>> init_sig = inspect.signature(sorted_set.SortedSet.__init__)
+>>> init_sig
+``` 
 
 ## Functions
 Functions are known as callable objects
