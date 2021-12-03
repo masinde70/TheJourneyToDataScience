@@ -80,6 +80,7 @@ Functions are known as callable objects
 4. AI Crash Course (Hadelin de Ponteves)
 5. Python Machine Learning (Sebastian Raschka)
 6. Machine Learning Algorithms (Giuseppe Bonaccorso)
+7. Deep Learning for Natural Language Processing (Jason Brownlee)
 ## How to learn Data Science
    - Plan
       * Setting learning goals
@@ -135,7 +136,14 @@ TensorFlow is an end-to-end open source platform for machine learning. It has a 
  - pretty-confusion-matrix
  - 
 ## NLP
+ Natural language processing (NLP) is a collective term referring to automatic
+computational processing of human languages. This includes both algorithms that
+take human-produced text as input, and algorithms that produce natural looking
+text as outputs.
 ## DeepLearning
+When you hear the term deep learning, just think of a large deep neural net. Deep
+refers to the number of layers typically and so this kind of the popular term that’s
+been adopted in the press. I think of them as deep neural networks generally
 ## Data Science tools
 ### Feature engine
  Feature-engine is a Python 3 package
