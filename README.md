@@ -108,15 +108,16 @@ Functions are known as callable objects
      * Write blog posts
      * Build well documented GitHub repository
 # Machine Learning
-Machine learning is part of the broader field of artificial intelligence. This field is concerned with the capability of machines to perform activities using human-like intelligence. Within machine learning there are several different kinds of tasks or techniques
+Machine learning, or ML, is a modern software development technique that enables computers to solve problems by using examples of real-world data.
+- In supervised learning, every training sample from the dataset has a corresponding label or output value associated with it.
+  As a result, the algorithm learns to predict labels or output values.
 
- - In supervised learning, every training sample from the dataset has a corresponding label or output value associated with it.
-    As a result, the algorithm learns to predict labels or output values. 
- - In unsupervised learning, there are no labels for the training data.
-   A machine learning algorithm tries to learn the underlying patterns or distributions that govern the data. 
- - In reinforcement learning, the algorithm figures out which actions to take in a situation 
-   to maximize a reward (in the form of a number) on the way to  reaching a specific goal
- - 
+- In reinforcement learning, the algorithm figures out which actions to take in a situation to maximize
+  a reward (in the form of a number) on the way to reaching a specific goal.
+
+- In unsupervised learning, there are no labels for the training data.
+  A machine learning algorithm tries to learn the underlying patterns or distributions that govern the data.
+  
 ## Numpy
 It is a Python library that provides a multidimensional array object, various derived objects (such as masked arrays and matrices), and an assortment of routines for fast operations on arrays, including mathematical, logical, shape manipulation, sorting, selecting, I/O, discrete Fourier transforms, basic linear algebra, basic statistical operations, random simulation and much more.
 ## Tensorflow
