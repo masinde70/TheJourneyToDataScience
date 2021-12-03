@@ -37,3 +37,11 @@ def brief_doc(obj):
         if len(lines) > 0:
             return lines[0]
     return ''
+
+
+def print_table(rows_of_columns, *headers):
+    num_columns = len(rows_of_columns[0])
+    num_headers = len(headers)
+    if len(headers) != num_columns:
+        raise TypeError("Expected {} header arguments, "
+                        "got {}".format(num_columns, num_headers))
