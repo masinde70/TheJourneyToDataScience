@@ -184,4 +184,8 @@ text as outputs.
      *  If you don't save it to this file, you'll need to access it every time you make a new post.
  
  ## FugueSQL in a Notebook
+ 
+ ### Installation
+ pip install 'fugue[sql]'
+
 
