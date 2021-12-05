@@ -179,4 +179,6 @@ text as outputs.
   -  Once you have your integration token, create the following folder and file in your home directory.
      *  .jupyter_to_medium/integration_token
      *  If you don't save it to this file, you'll need to access it every time you make a new post.
+ 
+ ## FugueSQL in a Notebook
 
