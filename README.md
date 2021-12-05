@@ -176,6 +176,7 @@ text as outputs.
  - jupyter bundlerextension enable --py jupyter_to_medium._bundler --sys-prefix
  
  #### Get an Integration Token from Medium
+ 
   - Before using this package, you must request an integration token from Medium
   -  Read the instructions here on how to get your integration token.[Documentation for Medium's OAuth2 API](https://github.com/Medium/medium-api-docs).
   -  Save your integration token
@@ -184,6 +185,11 @@ text as outputs.
      *  If you don't save it to this file, you'll need to access it every time you make a new post.
  
  ## FugueSQL in a Notebook
+ 
+ FugueSQL is designed for heavy SQL users to extend the boundaries of traditional SQL workflows.
+ FugueSQL allows the expression of logic for end-to-end distributed computing workflows. 
+ It can also be combined with Python code to use custom functions alongside the SQL commands.
+ It provides a unified interface, allowing the same SQL code to run on Pandas, Dask, and Spark.
  
  ### Installation
  pip install 'fugue[sql]'
