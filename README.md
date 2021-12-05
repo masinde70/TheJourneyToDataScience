@@ -135,21 +135,33 @@ TensorFlow is an end-to-end open source platform for machine learning. It has a 
  - Mermaid
  - pretty-confusion-matrix
  - 
+
+# DeepLearning
+When you hear the term deep learning, just think of a large deep neural net. Deep
+refers to the number of layers typically and so this kind of the popular term that’s
+been adopted in the press. I think of them as deep neural networks generally
+
 ## NLP
  Natural language processing (NLP) is a collective term referring to automatic
 computational processing of human languages. This includes both algorithms that
 take human-produced text as input, and algorithms that produce natural looking
 text as outputs.
-## DeepLearning
-When you hear the term deep learning, just think of a large deep neural net. Deep
-refers to the number of layers typically and so this kind of the popular term that’s
-been adopted in the press. I think of them as deep neural networks generally
-## Data Science tools
-### Feature engine
+
+# Data Science tools
+## Feature engine
  Feature-engine is a Python 3 package
  Can be installed using anaconda
  - $ conda install -c conda-forge feature_engine
- ### Jupyter to medium
+  #### Applications of feature engine
+  - Missing data imputation
+  - Categorical Variable Encoding
+  - Variable Transformation
+  - Variable Discretisation
+  - Outlier Handling
+  - Feature Creation
+  - Scikit-learn Wrapper
+
+## Jupyter to medium
  Publish blog posts to medium as Jupyter notebook,
  jupyter_to_medium will automate the process of taking your Jupyter Notebook as is and publishing it as a 
  Medium post in almost no time at all, saving huge amounts of time.
@@ -167,14 +179,4 @@ been adopted in the press. I think of them as deep neural networks generally
   -  Once you have your integration token, create the following folder and file in your home directory.
      *  .jupyter_to_medium/integration_token
      *  If you don't save it to this file, you'll need to access it every time you make a new post.
-
- ### Applications of feature engineering
-  - Missing data imputation
-  - Categorical Variable Encoding
-  - Variable Transformation
-  - Variable Discretisation
-  - Outlier Handling
-  - Feature Creation
-  - Scikit-learn Wrapper
-
 
