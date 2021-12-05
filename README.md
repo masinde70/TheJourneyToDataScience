@@ -168,7 +168,7 @@ been adopted in the press. I think of them as deep neural networks generally
      *  .jupyter_to_medium/integration_token
      *  If you don't save it to this file, you'll need to access it every time you make a new post.
 
- ### Applications of feature engine
+ ### Applications of feature engineering
   - Missing data imputation
   - Categorical Variable Encoding
   - Variable Transformation
