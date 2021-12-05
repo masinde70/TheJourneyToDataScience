@@ -52,6 +52,7 @@ Functions are known as callable objects
  - Extended Formal Parameters Syntax
  - Extended Call Syntax
  - Transposing tables
+ - 
 ## Context Managers
   - Context manager represents code that runs before and after the with-statement's block
   - Context managers are objects designed to work in with-statements
@@ -72,7 +73,7 @@ Functions are known as callable objects
   - __repr__() and __str__()
 - Organizing large functions
 
-## Data Science and ML
+# Data Science and ML
 ### The books 
 1. Graph Algorithms for Data Science (Tomaž Bratanič)
 2. The Hundred-Page Machine Learning Book (Andriy Burkov)
@@ -123,18 +124,6 @@ Machine learning, or ML, is a modern software development technique that enables
 It is a Python library that provides a multidimensional array object, various derived objects (such as masked arrays and matrices), and an assortment of routines for fast operations on arrays, including mathematical, logical, shape manipulation, sorting, selecting, I/O, discrete Fourier transforms, basic linear algebra, basic statistical operations, random simulation and much more.
 # Tensorflow
 TensorFlow is an end-to-end open source platform for machine learning. It has a comprehensive, flexible ecosystem of tools, libraries and community resources that lets researchers push the state-of-the-art in ML and developers easily build and deploy ML powered applications.
-# Data Visualizations
- - Graphviz
- - folium
- - dtreeviz
- - HiPlot
- - missingno.dendogram
- - matplotlib-venn
- - UMAP
- - Evidently
- - Mermaid
- - pretty-confusion-matrix
- - 
 
 # DeepLearning
 When you hear the term deep learning, just think of a large deep neural net. Deep
@@ -160,11 +149,24 @@ text as outputs.
   - Outlier Handling
   - Feature Creation
   - Scikit-learn Wrapper
-
+  
+# Data Visualizations
+ - Graphviz
+ - folium
+ - dtreeviz
+ - HiPlot
+ - missingno.dendogram
+ - matplotlib-venn
+ - UMAP
+ - Evidently
+ - Mermaid
+ - pretty-confusion-matrix
+ - 
 ## Jupyter to medium
  Publish blog posts to medium as Jupyter notebook,
  jupyter_to_medium will automate the process of taking your Jupyter Notebook as is and publishing it as a 
  Medium post in almost no time at all, saving huge amounts of time.
+ 
  #### Installation
  - pip install jupyter_to_medium
  - conda install -c conda-forge jupyter_to_medium
@@ -172,6 +174,7 @@ text as outputs.
  ##### Automatically activated
  You should be able to skip the next step, but if the extension is not showing up in your notebook, run the following command:
  - jupyter bundlerextension enable --py jupyter_to_medium._bundler --sys-prefix
+ 
  #### Get an Integration Token from Medium
   - Before using this package, you must request an integration token from Medium
   -  Read the instructions here on how to get your integration token.[Documentation for Medium's OAuth2 API](https://github.com/Medium/medium-api-docs).
