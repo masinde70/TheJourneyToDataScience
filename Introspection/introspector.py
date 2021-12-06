@@ -28,6 +28,8 @@ def dump(obj):
     attr_names_and_values = [(name, reprlib.repr(getattr(object, name))) for name in all_attr_names]
     print_table(attr_names_and_values, "Name", "Value")
     methods = (getattr(obj, method_name) for method_name in method_names)
+    methods_names_and_doc = [(full_sig(method), brief_doc(method)) for method in methods]
+    print_table(methods_names_and_doc, "Name", "Description")
     print()
     
    
