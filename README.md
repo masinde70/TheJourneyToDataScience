@@ -52,6 +52,7 @@ Functions are known as callable objects
  - Extended Formal Parameters Syntax
  - Extended Call Syntax
  - Transposing tables
+ - 
 ## Context Managers
   - Context manager represents code that runs before and after the with-statement's block
   - Context managers are objects designed to work in with-statements
@@ -72,7 +73,7 @@ Functions are known as callable objects
   - __repr__() and __str__()
 - Organizing large functions
 
-## Data Science and ML
+# Data Science and ML
 ### The books 
 1. Graph Algorithms for Data Science (Tomaž Bratanič)
 2. The Hundred-Page Machine Learning Book (Andriy Burkov)
@@ -119,11 +120,37 @@ Machine learning, or ML, is a modern software development technique that enables
 - In unsupervised learning, there are no labels for the training data.
   A machine learning algorithm tries to learn the underlying patterns or distributions that govern the data.
   
-## Numpy
+# Numpy
 It is a Python library that provides a multidimensional array object, various derived objects (such as masked arrays and matrices), and an assortment of routines for fast operations on arrays, including mathematical, logical, shape manipulation, sorting, selecting, I/O, discrete Fourier transforms, basic linear algebra, basic statistical operations, random simulation and much more.
-## Tensorflow
+# Tensorflow
 TensorFlow is an end-to-end open source platform for machine learning. It has a comprehensive, flexible ecosystem of tools, libraries and community resources that lets researchers push the state-of-the-art in ML and developers easily build and deploy ML powered applications.
-## Visualizations
+
+# DeepLearning
+When you hear the term deep learning, just think of a large deep neural net. Deep
+refers to the number of layers typically and so this kind of the popular term that’s
+been adopted in the press. I think of them as deep neural networks generally
+
+## NLP
+ Natural language processing (NLP) is a collective term referring to automatic
+computational processing of human languages. This includes both algorithms that
+take human-produced text as input, and algorithms that produce natural looking
+text as outputs.
+
+# Data Science tools
+## Feature engine
+ Feature-engine is a Python 3 package
+ Can be installed using anaconda
+ - $ conda install -c conda-forge feature_engine
+  #### Applications of feature engine
+  - Missing data imputation
+  - Categorical Variable Encoding
+  - Variable Transformation
+  - Variable Discretisation
+  - Outlier Handling
+  - Feature Creation
+  - Scikit-learn Wrapper
+  
+# Data Visualizations
  - Graphviz
  - folium
  - dtreeviz
@@ -135,24 +162,11 @@ TensorFlow is an end-to-end open source platform for machine learning. It has a 
  - Mermaid
  - pretty-confusion-matrix
  - 
-## NLP
- Natural language processing (NLP) is a collective term referring to automatic
-computational processing of human languages. This includes both algorithms that
-take human-produced text as input, and algorithms that produce natural looking
-text as outputs.
-## DeepLearning
-When you hear the term deep learning, just think of a large deep neural net. Deep
-refers to the number of layers typically and so this kind of the popular term that’s
-been adopted in the press. I think of them as deep neural networks generally
-## Data Science tools
-### Feature engine
- Feature-engine is a Python 3 package
- Can be installed using anaconda
- - $ conda install -c conda-forge feature_engine
- ### Jupyter to medium
+## Jupyter to medium
  Publish blog posts to medium as Jupyter notebook,
  jupyter_to_medium will automate the process of taking your Jupyter Notebook as is and publishing it as a 
  Medium post in almost no time at all, saving huge amounts of time.
+ 
  #### Installation
  - pip install jupyter_to_medium
  - conda install -c conda-forge jupyter_to_medium
@@ -160,21 +174,24 @@ been adopted in the press. I think of them as deep neural networks generally
  ##### Automatically activated
  You should be able to skip the next step, but if the extension is not showing up in your notebook, run the following command:
  - jupyter bundlerextension enable --py jupyter_to_medium._bundler --sys-prefix
+ 
  #### Get an Integration Token from Medium
+ 
   - Before using this package, you must request an integration token from Medium
   -  Read the instructions here on how to get your integration token.[Documentation for Medium's OAuth2 API](https://github.com/Medium/medium-api-docs).
   -  Save your integration token
   -  Once you have your integration token, create the following folder and file in your home directory.
      *  .jupyter_to_medium/integration_token
      *  If you don't save it to this file, you'll need to access it every time you make a new post.
-
- ### Applications of feature engine
-  - Missing data imputation
-  - Categorical Variable Encoding
-  - Variable Transformation
-  - Variable Discretisation
-  - Outlier Handling
-  - Feature Creation
-  - Scikit-learn Wrapper
+ 
+ ## FugueSQL in a Notebook
+ 
+ FugueSQL is designed for heavy SQL users to extend the boundaries of traditional SQL workflows.
+ FugueSQL allows the expression of logic for end-to-end distributed computing workflows. 
+ It can also be combined with Python code to use custom functions alongside the SQL commands.
+ It provides a unified interface, allowing the same SQL code to run on Pandas, Dask, and Spark.
+ 
+ ### Installation
+ pip install 'fugue[sql]'
 
 
