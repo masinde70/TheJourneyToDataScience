@@ -1,4 +1,5 @@
 import inspect
+import reprlib
 
 
 def dump(obj):
@@ -14,15 +15,21 @@ def dump(obj):
 
     print("Attributes")
     print("==========")
-    # TODO
+    all_attr_names = SortedSet(dir(obj))
+    method_names = SortedSet(filter(lambda attr_name:
+                                    callable(getattr(obj, attr_name)),
+                                    all_attr_names))
     print()
 
     print("Methods")
     print("=======")
-    # TODO
+    assert method_names <= all_attr_names
+    attr_names = all_attr_names - method_names
+    attr_names_and_values = [(name, reprlib.repr(getattr(object, name))) for name in all_attr_names]
+    print_table(attr_names_and_values, "Name", "Value")
     print()
-
-
+    
+   
 def full_sig(method):
     try:
         return method.__name__ + inspect.signature(method)
@@ -45,3 +52,4 @@ def print_table(rows_of_columns, *headers):
     if len(headers) != num_columns:
         raise TypeError("Expected {} header arguments, "
                         "got {}".format(num_columns, num_headers))
+
