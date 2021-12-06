@@ -35,3 +35,10 @@ def dump(obj):
     method_names_and_doc = [(full_sig(method), brief_doc(method)) for method in methods]
     print_table(method_names_and_doc, "Name", "Description")
     print()
+
+
+def full_sig(method):
+    try:
+        return method.__name__ + inspect.signature(method)
+    except ValueError:
+        return method.__name__ + '(...)'
