@@ -1,4 +1,5 @@
 import inspect
+import itertools
 import reprlib
 
 
@@ -55,4 +56,6 @@ def print_table(rows_of_columns, *headers):
     if len(headers) != num_columns:
         raise TypeError("Expected {} header arguments, "
                         "got {}".format(num_columns, num_headers))
+
+    rows_of_columns_with_header = itertools.chain([headers], rows_of_columns)
 
