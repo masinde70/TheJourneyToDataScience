@@ -58,4 +58,6 @@ def print_table(rows_of_columns, *headers):
                         "got {}".format(num_columns, num_headers))
 
     rows_of_columns_with_header = itertools.chain([headers], rows_of_columns)
+    columns_of_rows = list(zip(*rows_of_columns_with_header))
+    column_widths = [max(map(len, column)) for column in columns_of_rows]
 
