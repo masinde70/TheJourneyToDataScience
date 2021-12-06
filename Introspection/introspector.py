@@ -30,3 +30,8 @@ def dump(obj):
     print()
 
     print("Methods")
+    print("=======")
+    methods = (getattr(obj, method_name) for method_name in method_names)
+    method_names_and_doc = [(full_sig(method), brief_doc(method)) for method in methods]
+    print_table(method_names_and_doc, "Name", "Description")
+    print()
