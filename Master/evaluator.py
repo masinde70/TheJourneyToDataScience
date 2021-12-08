@@ -26,3 +26,21 @@ def execute(program):
     else:  # no break
         print("Empty program")
         return
+
+    pending = []
+    while program:
+        item = program.pop()
+        if callable(item):
+            try:
+                result = item(*pending)
+            except Exception as e:
+                print("Error: ", e)
+                break
+            program.append(result)
+            pending.clear()
+        else:
+            pending.append(item)
+    else:  # nobreak
+        print("Program successful")
+        print("Result: ", pending)
+    print("Finished")
