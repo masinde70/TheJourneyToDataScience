@@ -44,3 +44,16 @@ def execute(program):
         print("Program successful")
         print("Result: ", pending)
     print("Finished")
+
+
+if __name__ == '__main__':
+    import operator
+    program = list(reversed((
+        "# A short stack program to add",
+        '# and multiply some constants',
+        9,
+        13,
+        operator.mul,
+        2,
+        operator.add)))
+    execute(program)
