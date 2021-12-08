@@ -72,7 +72,13 @@ Functions are known as callable objects
 ## Strings and representations
   - Python supports two strings representation
   - __repr__() and __str__()
-- Organizing large functions
+  - Organizing large functions
+
+## Advanced FLow Control
+  - else clauses on loops
+  - else clauses on try blocks
+  - emulating switch statements
+  - dispatching on type
 
 # Data Science and ML
 ### The books 
