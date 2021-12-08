@@ -76,6 +76,14 @@ Functions are known as callable objects
 
 ## Advanced FLow Control
   - else clauses on loops
+   ```
+   while condition:
+       flag = excute_condition_is_true()
+       if flag:
+          break
+   else: # nobreak
+       excute_condition_is_true()
+   ```
   - else clauses on try blocks
   - emulating switch statements
   - dispatching on type
