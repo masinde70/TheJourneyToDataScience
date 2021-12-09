@@ -1,8 +1,11 @@
+import operator
+
+
 def is_comment(item):
     return isinstance(item, str) and item.startswith('#')
 
 
-def execute(program):
+def execute(program) -> object:
     """ Execute a stack program.
 
     Args:
@@ -26,6 +29,8 @@ def execute(program):
     else:  # no break
         print("Empty program")
         return
+
+    # Evaluate the program
 
     pending = []
     while program:
@@ -51,9 +56,9 @@ if __name__ == '__main__':
     program = list(reversed((
         "# A short stack program to add",
         '# and multiply some constants',
-        9,
-        13,
-        operator.mul,
+        5,
         2,
-        operator.add)))
+        operator.add,
+        3,
+        operator.mul)))
     execute(program)
