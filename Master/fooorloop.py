@@ -6,7 +6,7 @@ def divisor():
         if item % diivisor == 0:
             found = item
             break
-    else:
+    else:  # nobreak
         items.append(diivisor)
         found = diivisor
 
