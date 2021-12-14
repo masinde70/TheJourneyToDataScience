@@ -37,7 +37,7 @@ def execute(program) -> object:
         item = program.pop()
         if callable(item):
             try:
-                result = item(*pending)
+                result = item(*pending) # star-arg extended syntax
             except Exception as e:
                 print("Error: ", e)
                 break
