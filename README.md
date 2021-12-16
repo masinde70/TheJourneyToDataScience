@@ -166,7 +166,7 @@ text as outputs.
   - Feature Creation
   - Scikit-learn Wrapper
   
-# Data Visualizations
+# Data Visualizations tools
  - Graphviz
  - folium
  - dtreeviz
