@@ -99,7 +99,7 @@ Functions are known as callable objects
 6. Machine Learning Algorithms (Giuseppe Bonaccorso)
 7. Deep Learning for Natural Language Processing (Jason Brownlee)
 
-## Blogs
+## Blogs which i follow and learn new things
 1. [Khuyen Tran's Data Science github](https://github.com/khuyentran1401)
 2. [Math data simplified Khuyen Tran](https://mathdatasimplified.com/)
 3. [Chip Huyen](https://huyenchip.com/)
