@@ -7,7 +7,7 @@ I have used different python books but these three books for me stands out as gi
  3. The Python Master
  4. 
 
-In this journey I will learn many things so can you
+In this journey I will learn many things, so you can follow along
 - Error handling
 - Decorators
 - Containers
