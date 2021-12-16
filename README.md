@@ -90,7 +90,7 @@ Functions are known as callable objects
   - dispatching on type
 
 # Data Science and ML
-### The books 
+### Books 
 1. Graph Algorithms for Data Science (Tomaž Bratanič)
 2. The Hundred-Page Machine Learning Book (Andriy Burkov)
 3. Introduction to Data Science (Rafael A Irizarry)
@@ -98,6 +98,16 @@ Functions are known as callable objects
 5. Python Machine Learning (Sebastian Raschka)
 6. Machine Learning Algorithms (Giuseppe Bonaccorso)
 7. Deep Learning for Natural Language Processing (Jason Brownlee)
+
+## Blogs
+1. [Khuyen Tran's Data Science github](https://github.com/khuyentran1401)
+2. [Math data simplified Khuyen Tran](https://mathdatasimplified.com/)
+3. [Chip Huyen](https://huyenchip.com/)
+4. [Jeff Heaton](https://github.com/jeffheaton)
+5. [Tina Huang](https://www.hellotinah.com/)
+6. [Ken Jee](https://www.youtube.com/c/KenJee1/about)
+7. [Data Professor](https://www.youtube.com/c/DataProfessor/about)
+8. [Jacob Amaral](https://www.youtube.com/user/jacobamaral)
 ## How to learn Data Science
    - Plan
       * Setting learning goals
