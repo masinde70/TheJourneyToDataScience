@@ -108,6 +108,7 @@ Functions are known as callable objects
 6. [Ken Jee](https://www.youtube.com/c/KenJee1/about)
 7. [Data Professor](https://www.youtube.com/c/DataProfessor/about)
 8. [Jacob Amaral](https://www.youtube.com/user/jacobamaral)
+9. [Power Analytics](https://analyticshour.io/2021/12/14/182-making-better-decisions-and-being-useful-with-cassie-kozyrkov/?utm_medium=social&utm_source=linkedin)
 
 ## Data sources
 [Strategy Titan Blog](https://www.strategytitan.com/blog/titanized-real-world-dataset-to-develop-your-analytics-muscle)
