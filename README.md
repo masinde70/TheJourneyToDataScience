@@ -15,6 +15,7 @@ In this journey I will learn many things so can you
 - Files
 Rule of thumb using "Easier to Ask for Forgiveness than Permission (EAFP) style programming
 using exception handlers is considered more Pythonic"
+
 ## Closures and decorators
 - Local functions
 - Closures and nested scopes
@@ -71,7 +72,21 @@ Functions are known as callable objects
 ## Strings and representations
   - Python supports two strings representation
   - __repr__() and __str__()
-- Organizing large functions
+  - Organizing large functions
+
+## Advanced FLow Control
+  - else clauses on loops
+   ```
+   while condition:
+       flag = excute_condition_is_true()
+       if flag:
+          break
+   else: # nobreak
+       excute_condition_is_true()
+   ```
+  - else clauses on try blocks
+  - emulating switch statements
+  - dispatching on type
 
 # Data Science and ML
 ### The books 
