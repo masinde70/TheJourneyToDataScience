@@ -167,6 +167,7 @@ text as outputs.
   - Scikit-learn Wrapper
   
 # Data Visualizations tools
+Thanks [Khuyen Tran for great job](https://github.com/khuyentran1401)
  - Graphviz
  - folium
  - dtreeviz
