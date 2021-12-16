@@ -99,7 +99,7 @@ Functions are known as callable objects
 6. Machine Learning Algorithms (Giuseppe Bonaccorso)
 7. Deep Learning for Natural Language Processing (Jason Brownlee)
 
-## Blogs which i follow and learn new things
+## Blogs which I follow and learn new things
 1. [Khuyen Tran's Data Science github](https://github.com/khuyentran1401)
 2. [Math data simplified Khuyen Tran](https://mathdatasimplified.com/)
 3. [Chip Huyen](https://huyenchip.com/)
@@ -108,6 +108,9 @@ Functions are known as callable objects
 6. [Ken Jee](https://www.youtube.com/c/KenJee1/about)
 7. [Data Professor](https://www.youtube.com/c/DataProfessor/about)
 8. [Jacob Amaral](https://www.youtube.com/user/jacobamaral)
+
+## Data sources
+[Strategy Titan Blog](https://www.strategytitan.com/blog/titanized-real-world-dataset-to-develop-your-analytics-muscle)
 ## How to learn Data Science
    - Plan
       * Setting learning goals
@@ -220,5 +223,14 @@ Thanks [Khuyen Tran for great job](https://github.com/khuyentran1401)
  
  ### Installation
  pip install 'fugue[sql]'
+
+### Quotes
+"Something to do before you get into a big data set, make one of your own!
+With a lot of the big data sets, you can produce models. 
+But, you don't know what the real model is.
+When you make your own data, you can run all the different algorithms you
+want and see how well they can find the actual model.
+Once you know how well the algorithms work, then you can see how well 
+they work on "real" data"
 
 
