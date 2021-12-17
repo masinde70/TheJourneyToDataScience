@@ -98,6 +98,7 @@ Functions are known as callable objects
 5. Python Machine Learning (Sebastian Raschka)
 6. Machine Learning Algorithms (Giuseppe Bonaccorso)
 7. Deep Learning for Natural Language Processing (Jason Brownlee)
+8. Effective Data Science Infrastructure (Ville Tuulos)
 
 ## Blogs which I follow and learn new things
 1. [Khuyen Tran's Data Science github](https://github.com/khuyentran1401)
