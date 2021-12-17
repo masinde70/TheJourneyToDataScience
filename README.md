@@ -238,4 +238,13 @@ want and see how well they can find the actual model.
 Once you know how well the algorithms work, then you can see how well 
 they work on "real" data"
 
+## The infrastructure stack for data science
+- Model development
+- Feature Engineering
+- Model operation
+- Versioning
+- Job Scheduler
+- Compute Resources
+- Data warehouse
+
 
