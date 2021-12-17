@@ -247,4 +247,6 @@ they work on "real" data"
 - Compute Resources
 - Data warehouse
 
-
+### The four V's motivation for data science infrastructure
+1. Volume  - support large number of data science applications
+2. Velocity - easier and quick to prototype and productionize data science applications
