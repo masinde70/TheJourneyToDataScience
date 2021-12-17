@@ -1,4 +1,7 @@
-# The Journey To DataScience and ML Engineering
+# The Journey To DataScience
+Data Scientists are expected to build end-to-end solutions to business problems,
+which models are a small but important part of it. Data scientist builds data sceince
+applications.
 
 ## Python Books I am using and for me, they are the best out there
 I have used different python books but these three books for me stands out as giants
