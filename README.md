@@ -252,3 +252,10 @@ they work on "real" data"
 2. Velocity - easier and quick to prototype and productionize data science applications
 3. Validity - the results are supposed to be valid and consistent
 4. variety - support many kinds of data science models and applications
+
+### Generalized Infrastructure
+#### Benefits
+- Allows optimization for volume
+- Allows optimization for velocity
+- Allows optimization for variety
+- Allows optimization for validity
