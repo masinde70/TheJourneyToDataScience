@@ -268,3 +268,6 @@ form a closed loop
 - Introduces common vocabulary -steps and transitions between them which makes it easier to write understand
 - Allows to be explicit about the order of operations
 - Allows to show the order of operations doesn't matter
+#### Schedular
+The system that walks through the DAG, sending each step to the compute layer
+and waiting for their completion before continuing
