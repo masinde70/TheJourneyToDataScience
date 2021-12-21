@@ -265,3 +265,6 @@ Directed Acyclic Graphs are graphs with no directed cycles.
 That consists of vertices (also called nodes) and edges(also called arcs)
 with each edge directed from one node to another, such that following those directions will never
 form a closed loop
+- Introduces common vocabulary -steps and transitions between them which makes it easier to write understand
+- Allows to be explicit about the order of operations
+- Allows to show the order of operations doesn't matter
