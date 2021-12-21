@@ -261,4 +261,6 @@ they work on "real" data"
 - Allows optimization for validity
 
 ### DAGS
-Directed Acyclic Graphs
+Directed Acyclic Graphs are graphs with no directed cycles.
+That consists of vertices (also called nodes) and edges(also called arcs)
+
