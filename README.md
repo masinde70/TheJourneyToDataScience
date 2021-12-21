@@ -259,3 +259,6 @@ they work on "real" data"
 - Allows optimization for velocity
 - Allows optimization for variety
 - Allows optimization for validity
+
+### DAGS
+Directed Acyclic Graphs
