@@ -281,4 +281,6 @@ Job Schedular is the system that executes a workflow
 #### Workflow steps in Metaflow
 1. A flow is defined as python class that is derived from the FlowSpec class
 2. A step(node or vertices) of the flow is the method of the class
-3. 
+3. Metaflow executes the method bodies as an atomic unit of computation called task
+4. The first step(node or vertices) must be called start
+5. 
