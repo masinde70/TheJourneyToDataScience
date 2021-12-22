@@ -283,4 +283,10 @@ Job Schedular is the system that executes a workflow
 2. A step(node or vertices) of the flow is the method of the class
 3. Metaflow executes the method bodies as an atomic unit of computation called task
 4. The first step(node or vertices) must be called start
-5. 
+5. The edges(arrows) between steps are defined by calling self.next(step_name) on the last line of the method where 
+   step_name is the name of the next step to be executed
+6. The last step must be called end, since the last step finishes the flow it doesn't need a self.next transition on
+   the last line
+7. One python file(module) must contain only a single flow. You should
+   instantiate the flow class at the bottom of the file inside 
+   a if__name__ == '__main__' conditional.
