@@ -279,3 +279,4 @@ and waiting for their completion before continuing.
 Job Schedular is the system that executes a workflow
 
 #### Workflow steps in Metaflow
+1. A flow is defined as python class that is derived from the FlowSpec class
