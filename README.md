@@ -269,5 +269,11 @@ form a closed loop
 - Allows to be explicit about the order of operations
 - Allows to show the order of operations doesn't matter
 #### Schedular
-The system that walks through the DAG, sending each step to the compute layer
-and waiting for their completion before continuing
+The system that walks through the DAG, sending each step to compute layer
+and waiting for their completion before continuing.
+##### Types of job schedule
+- Static DAG
+- Dynamic DAG
+
+
+Job Schedular is the system that executes a workflow
