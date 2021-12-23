@@ -103,6 +103,13 @@ Functions are known as callable objects
 7. Deep Learning for Natural Language Processing (Jason Brownlee)
 8. Effective Data Science Infrastructure (Ville Tuulos)
 
+#### My wish list
+1. [Deep Learning with PyTorch by Eli Stevens, Luca Antiga, and Thomas Viehmann](https://www.manning.com/books/deep-learning-with-pytorch)
+2. [MLOPs Deep learning in production by Sergios Karagianakos](https://leanpub.com/DLProd)
+3. [Machine learning engineering by Andriy Burkov](https://leanpub.com/MLE)
+4. [A Programmer's Guide to Artificial Intelligence by Laurence Moroney](https://theaisummer.com/deep-learning-books-2022/)
+
+
 ## Blogs which I follow and learn new things
 1. [Khuyen Tran's Data Science github](https://github.com/khuyentran1401)
 2. [Math data simplified Khuyen Tran](https://mathdatasimplified.com/)
