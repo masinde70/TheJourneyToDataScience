@@ -259,3 +259,37 @@ they work on "real" data"
 - Allows optimization for velocity
 - Allows optimization for variety
 - Allows optimization for validity
+
+### DAGS
+Directed Acyclic Graphs are graphs with no directed cycles.
+That consists of vertices (also called nodes) and edges(also called arcs)
+with each edge directed from one node to another, such that following those directions will never
+form a closed loop
+- Introduces common vocabulary -steps and transitions between them which makes it easier to write understand
+- Allows to be explicit about the order of operations
+- Allows to show the order of operations doesn't matter
+#### Schedular
+The system that walks through the DAG, sending each step to compute layer
+and waiting for their completion before continuing.
+##### Types of job schedule
+- Static DAG
+- Dynamic DAG
+
+
+Job Schedular is the system that executes a workflow
+
+#### Workflow steps in Metaflow
+1. A flow is defined as python class that is derived from the FlowSpec class
+2. A step(node or vertices) of the flow is the method of the class
+3. Metaflow executes the method bodies as an atomic unit of computation called task
+4. The first step(node or vertices) must be called start
+5. The edges(arrows) between steps are defined by calling self.next(step_name) on the last line of the method where 
+   step_name is the name of the next step to be executed
+6. The last step must be called end, since the last step finishes the flow it doesn't need a self.next transition on
+   the last line
+7. One python file(module) must contain only a single flow. You should
+   instantiate the flow class at the bottom of the file inside 
+   a 
+   ``` 
+    if__name__ == '__main__' conditional.
+    ```
