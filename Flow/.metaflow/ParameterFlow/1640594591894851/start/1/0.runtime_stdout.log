@@ -1,0 +1,3 @@
+[MFLOG|0|2021-12-27T08:43:12.076329Z|runtime|81015651-04fb-45bd-bb08-057b242dabd8]seal is a string of 4 characters
+[MFLOG|0|2021-12-27T08:43:12.076584Z|runtime|bfaa32d0-eb9c-4b84-950f-f4717e35a0d2]Count is an integer: 10+1=11
+[MFLOG|0|2021-12-27T08:43:12.076630Z|runtime|08280941-89f6-475c-995c-945806ecb64a]Ratio is a <class 'float'> whose value is 0.3
