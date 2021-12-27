@@ -1,0 +1,3 @@
+[MFLOG|0|2021-12-27T08:50:35.448300Z|runtime|64b21e5d-7bdd-4d9b-88ab-eb1409233882]dinosaur is a string of 8 characters
+[MFLOG|0|2021-12-27T08:50:35.448553Z|runtime|f2e4c5b8-ea44-4655-8dd8-07cb4f05f470]Count is an integer: 1+1=2
+[MFLOG|0|2021-12-27T08:50:35.448682Z|runtime|c179354b-3d1f-4184-9937-ecd1013ba141]Ratio is a <class 'float'> whose value is 0.25
