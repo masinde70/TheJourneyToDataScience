@@ -11,8 +11,9 @@ class JSONParameterFlow(FlowSpec):
     @step
     def start(self):
         for key, value in self.mapping.items():
+
             print('key', key, 'value', value)
-            self.next(self.end)
+        self.next(self.end)
 
     @step
     def end(self):
