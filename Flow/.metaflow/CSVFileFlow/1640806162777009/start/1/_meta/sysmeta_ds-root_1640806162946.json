@@ -1,0 +1,1 @@
+{"flow_id": "CSVFileFlow", "run_number": "1640806162777009", "step_name": "start", "task_id": "1", "field_name": "ds-root", "type": "ds-root", "value": "/Users/masinde/PycharmProjects/TheJourneyToDataScience/Flow/.metaflow", "tags": ["attempt_id:0"], "user_name": "masinde", "ts_epoch": 1640806162946}
