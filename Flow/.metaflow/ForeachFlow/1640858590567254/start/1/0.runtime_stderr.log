@@ -1,0 +1,5 @@
+[MFLOG|0|2021-12-30T10:03:10.736159Z|runtime|b4694775-f637-45f4-9fd0-c68ee2165e99]<flow ForeachFlow step start> failed:
+[MFLOG|0|2021-12-30T10:03:10.738996Z|runtime|946a116c-dc19-4989-8950-e86b5f434587]    Invalid self.next() transition detected on line 9:
+[MFLOG|0|2021-12-30T10:03:10.739051Z|runtime|fbf996a4-8d5e-42be-bbb8-15ccf8594819]    Foreach variable self.creature in step start does not exist. Check your variable.
+[MFLOG|0|2021-12-30T10:03:10.760207Z|runtime|34991fd4-1f2c-42d3-becf-0fef1f494fc9]
+[MFLOG|0|2021-12-30T10:03:10.760676Z|runtime|96691a4e-79fa-4230-b18d-85717cfeb975]Task failed.
