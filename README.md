@@ -301,3 +301,7 @@ Job Schedular is the system that executes a workflow
    ``` 
     if__name__ == '__main__' conditional.
     ```
+#### Valid DAG Structure
+The step that fans out branches is a split step and the step that fans in branches
+is called a join step
+* A join step can only join steps that have a common split parent
