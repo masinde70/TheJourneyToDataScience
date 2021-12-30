@@ -286,7 +286,7 @@ and waiting for their completion before continuing.
 **Static branches are suitable for expressing concurrency in code. Dynamic branches
 are suitable for expressing concurrency in data**
 
-Job Schedular is the system that executes a workflow
+Job Scheduler is the system that executes a workflow
 
 #### Workflow steps in Metaflow
 1. A flow is defined as python class that is derived from the FlowSpec class
