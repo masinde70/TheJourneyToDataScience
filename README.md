@@ -283,6 +283,8 @@ and waiting for their completion before continuing.
 - Static DAG
 - Dynamic DAG
 
+**Static branches are suitable for expressing concurrency in code. Dynamic branches
+are suitable for expressing concurrency in data**
 
 Job Schedular is the system that executes a workflow
 
@@ -305,3 +307,4 @@ Job Schedular is the system that executes a workflow
 The step that fans out branches is a split step and the step that fans in branches
 is called a join step
 * A join step can only join steps that have a common split parent
+
