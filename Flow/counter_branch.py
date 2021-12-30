@@ -25,7 +25,8 @@ class CounterBranchFlow(FlowSpec):
         print("Count from add_one", inputs.add_one.count)
         print("count from add_two", inputs.add_two.count)
 
-        self.creature = inputs[0].creature
+        # self.creature = inputs[0].creature
+        self.merge_artifacts(inputs)
         self.next(self.end)
 
     @step
