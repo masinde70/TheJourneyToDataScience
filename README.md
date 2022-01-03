@@ -311,3 +311,9 @@ is called a join step
 ### Numerical computing loves dynamic branching
 The pattern of executing a piece of code for different parts of data in parallel and then collecting the results is 
 universal in numerical computing
+
+- Bulk Synchronous Parallel
+- Map reduce
+- Fork-Join model
+- Parallel Map
+
