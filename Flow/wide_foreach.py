@@ -1,7 +1,7 @@
 from metaflow import FlowSpec, step
 
 
-class WideForeach(FlowSpec):
+class WideForeachFlow(FlowSpec):
 
     @step
     def start(self):
@@ -15,13 +15,12 @@ class WideForeach(FlowSpec):
 
     @step
     def join(self, inputs):
-        self.total = super(inp.result for inp in inputs)
+        self.total = sum(inp.result for inp in inputs)
         self.next(self.end)
 
     @step
     def end(self):
         print('Total sum is', self.total)
 
-
 if __name__ == '__main__':
-    WideForeach()
+    WideForeachFlow()
