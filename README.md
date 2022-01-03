@@ -308,3 +308,6 @@ The step that fans out branches is a split step and the step that fans in branch
 is called a join step
 * A join step can only join steps that have a common split parent
 
+### Numerical computing loves dynamic branching
+The pattern of executing a piece of code for different parts of data in parallel and then collecting the results is 
+universal in numerical computing
