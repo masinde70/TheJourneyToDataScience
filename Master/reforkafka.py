@@ -11,6 +11,28 @@ def play():
         (1, 1): lambda: print("There is a tall tower here, with no obvious door. A path leads east.")
 
     }
+    try:
+        location_action = locations[position]()
+    except KeyError:
+        print("There is nothing here.")
+    else:
+        location_action()
+
+    actions = {
+        'N': go_north,
+        'E': go_east,
+        'S': go_south,
+        'W': go_west,
+        'L': look,
+        'Q': quit,
+    }
+
+    try:
+        locations[position]()
+    except KeyError:
+        print("There is nothing here.")
+
+
     command = input()
     i, j = position
     if command == "N":
