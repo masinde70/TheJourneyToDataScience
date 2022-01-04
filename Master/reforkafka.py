@@ -12,7 +12,7 @@ def play():
 
     }
     try:
-        location_action = locations[position]()
+        location_action = locations[position]
     except KeyError:
         print("There is nothing here.")
     else:
