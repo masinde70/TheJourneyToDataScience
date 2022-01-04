@@ -28,28 +28,43 @@ def play():
     }
 
     try:
-        locations[position]()
+        command_action = actions[position]()
     except KeyError:
-        print("There is nothing here.")
-
-
-    command = input()
-    i, j = position
-    if command == "N":
-        position = (i, j + 1)
-    elif command == "E":
-        position = (i + 1, j)
-    elif command == "S":
-        position = (i, j - 1)
-    elif command == "W":
-        position = (i - 1, j)
-    elif command == "L":
-        pass
-    elif command == "Q":
-        position = None
+        print("I don't understand.")
     else:
-        print("I don't understand")
-        print("Game over")
+        position = command_action(position)
+
+
+def go_north(position):
+    i, j = position
+    new_position = (i, j + 1)
+    return new_position
+
+
+def go_east(position):
+    i, j = position
+    new_position = (i + 1, j)
+    return new_position
+
+
+def go_south(position):
+    i, j = position
+    new_position = (i, j - 1)
+    return new_position
+
+
+def go_west(position):
+    i, j = position
+    new_position = (i - 1, j)
+    return new_position
+
+
+def look(position):
+    return position
+
+
+def quit(position):
+    return None
 
 
 if __name__ == '__main__':
