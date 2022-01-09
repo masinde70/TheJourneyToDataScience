@@ -319,4 +319,5 @@ universal in numerical computing
 
 ### Starting new project
 1. What is the business problem we are trying to solve?
-2. 
+2. What input data can we use? How and where can we read it?
+3. 
