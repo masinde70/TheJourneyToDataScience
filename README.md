@@ -321,4 +321,5 @@ universal in numerical computing
 1. What is the business problem we are trying to solve?
 2. What input data can we use? How and where can we read it?
 3. What should be the output data? How and where should we write it?
-4. 
+4. What techniques can we use to produce a better output based on the input
+
