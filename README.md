@@ -317,3 +317,6 @@ universal in numerical computing
 - Fork-Join model
 - Parallel Map
 
+### Starting new project
+1. What is the business problem we are trying to solve?
+2. 
