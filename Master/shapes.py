@@ -29,7 +29,8 @@ class Parallelogram(Shape):
 
 class Triangle(Shape):
     
-    def __init__()
+    def __init__(self, pa, pb, pc, *args, **kwargs):
+
 
 
 
