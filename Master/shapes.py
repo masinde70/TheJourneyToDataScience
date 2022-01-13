@@ -43,6 +43,10 @@ def main():
               Parallelogram(pa=(0, 0), pb=(2, 0), pc=(1, 1), solid=False),
               Triangle(pa=(0, 0), pb=(1, 2), pc=(2, 0), solid=True)]
 
+    for shape in shapes:
+        shape.draw()
+
+
 
 
 
