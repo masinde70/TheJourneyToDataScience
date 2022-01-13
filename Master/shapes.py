@@ -20,9 +20,6 @@ class Parallelogram(Shape):
         self.pb = pb
         self.pc = pc
 
-    def draw(self):
-        print("\u25B0" if self.solid else "\u25B1")
-        
 
 class Triangle(Shape):
     
