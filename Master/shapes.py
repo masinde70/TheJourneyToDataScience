@@ -11,9 +11,6 @@ class Circle(Shape):
         self.center = center
         self.radius = radius
 
-    def draw(self):
-        print("\u25CF" if self.solid else "\u25A1")
-
 
 class Parallelogram(Shape):
 
