@@ -43,7 +43,8 @@ class ClassifierTrainFlow(FlowSpec):
 
     @step
     def end(self):
-
+        print('scores:')
+        print('\n'.join('%s %f' % res for res in self.results))
 
 
 if __name__ == '__main__':
