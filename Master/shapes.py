@@ -5,3 +5,6 @@ class Shape:
 
 class Circle(Shape):
 
+    def __init__(self, center, radius, *args, **kwargs):
+
+
