@@ -28,9 +28,6 @@ class Triangle(Shape):
         self.pb = pb
         self.pc = pc
 
-    def draw(self):
-        print("\u25B2" if self.solid else "\u25B3")
-
 
 def main():
     shapes = [Circle(center=(0, 0), radius=5, solid=False),
