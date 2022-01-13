@@ -1,0 +1,33 @@
+[MFLOG|0|2022-01-13T12:17:55.405406Z|runtime|17466036-2bc1-4680-911f-6003df16c991]<flow ClassifierTrainFlow step train_svm> failed:
+[MFLOG|0|2022-01-13T12:17:55.408983Z|runtime|a4f4b904-2ced-4125-b3b4-3a261ad188b1]    Internal error
+[MFLOG|0|2022-01-13T12:17:55.409758Z|runtime|06fc32a2-c610-4be7-9219-56c0d0f54c59]Traceback (most recent call last):
+[MFLOG|0|2022-01-13T12:17:55.409913Z|runtime|962cc65d-38c1-4fae-aeda-8ebfe7885e81]  File "/home/masinde/PycharmProjects/TheJourneyToDataScience/CupCakeApplication/venv/lib/python3.8/site-packages/metaflow/cli.py", line 1110, in main
+[MFLOG|0|2022-01-13T12:17:55.410034Z|runtime|b26ae2fb-6497-48ed-bb38-a9fe7cc97dd7]    start(auto_envvar_prefix="METAFLOW", obj=state)
+[MFLOG|0|2022-01-13T12:17:55.410136Z|runtime|a70a2e56-e457-434e-8346-a67d39ad6173]  File "/home/masinde/PycharmProjects/TheJourneyToDataScience/CupCakeApplication/venv/lib/python3.8/site-packages/click/core.py", line 1128, in __call__
+[MFLOG|0|2022-01-13T12:17:55.410234Z|runtime|966a924e-348f-4e72-bad4-faf1317cc825]    return self.main(args, kwargs)
+[MFLOG|0|2022-01-13T12:17:55.533435Z|runtime|ae300c9a-cab5-476d-919b-c19847cb1424]  File "/home/masinde/PycharmProjects/TheJourneyToDataScience/CupCakeApplication/venv/lib/python3.8/site-packages/click/core.py", line 1053, in main
+[MFLOG|0|2022-01-13T12:17:55.533709Z|runtime|b74352e7-e45c-43aa-ad14-62ed011173b2]    rv = self.invoke(ctx)
+[MFLOG|0|2022-01-13T12:17:55.533837Z|runtime|8cadeb11-b5bc-4463-85b6-aca16f79ef48]  File "/home/masinde/PycharmProjects/TheJourneyToDataScience/CupCakeApplication/venv/lib/python3.8/site-packages/click/core.py", line 1659, in invoke
+[MFLOG|0|2022-01-13T12:17:55.533945Z|runtime|01dc5893-fc7b-4e78-b5da-ea2e0832cf00]    return _process_result(sub_ctx.command.invoke(sub_ctx))
+[MFLOG|0|2022-01-13T12:17:55.534013Z|runtime|cd21e5d1-a6c1-454a-9dad-8eb79983d9a5]  File "/home/masinde/PycharmProjects/TheJourneyToDataScience/CupCakeApplication/venv/lib/python3.8/site-packages/click/core.py", line 1395, in invoke
+[MFLOG|0|2022-01-13T12:17:55.534076Z|runtime|dac86c81-6357-42fe-b791-384679421091]    return ctx.invoke(self.callback, ctx.params)
+[MFLOG|0|2022-01-13T12:17:55.534135Z|runtime|cfc2400a-a414-4205-8c9c-6559c284b401]  File "/home/masinde/PycharmProjects/TheJourneyToDataScience/CupCakeApplication/venv/lib/python3.8/site-packages/click/core.py", line 754, in invoke
+[MFLOG|0|2022-01-13T12:17:55.534200Z|runtime|cd3080d4-446c-474c-9078-328ca8333998]    return __callback(args, kwargs)
+[MFLOG|0|2022-01-13T12:17:55.534277Z|runtime|a6dfc2a9-63c5-4078-84b0-e074e3eefe6c]  File "/home/masinde/PycharmProjects/TheJourneyToDataScience/CupCakeApplication/venv/lib/python3.8/site-packages/click/decorators.py", line 26, in new_func
+[MFLOG|0|2022-01-13T12:17:55.534356Z|runtime|21c3b218-44a3-471a-bd46-32db9bd06e28]    return f(get_current_context(), args, kwargs)
+[MFLOG|0|2022-01-13T12:17:55.534429Z|runtime|bc84f3e7-c42b-4f9a-9ead-d65d3f9f58e1]  File "/home/masinde/PycharmProjects/TheJourneyToDataScience/CupCakeApplication/venv/lib/python3.8/site-packages/metaflow/cli.py", line 544, in step
+[MFLOG|0|2022-01-13T12:17:55.534487Z|runtime|bbc5c959-874c-4e31-8667-eff6d5f5d999]    task.run_step(
+[MFLOG|0|2022-01-13T12:17:55.534543Z|runtime|695bd2e5-dd6e-4dcf-91c6-3072fdac9d83]  File "/home/masinde/PycharmProjects/TheJourneyToDataScience/CupCakeApplication/venv/lib/python3.8/site-packages/metaflow/task.py", line 525, in run_step
+[MFLOG|0|2022-01-13T12:17:55.534598Z|runtime|07a30910-e6a6-49aa-b686-8485d92b7411]    self._exec_step_function(step_func)
+[MFLOG|0|2022-01-13T12:17:55.534658Z|runtime|113451ef-47ce-470a-84da-377fde35eeeb]  File "/home/masinde/PycharmProjects/TheJourneyToDataScience/CupCakeApplication/venv/lib/python3.8/site-packages/metaflow/task.py", line 53, in _exec_step_function
+[MFLOG|0|2022-01-13T12:17:55.534713Z|runtime|cb235d7e-2a97-4b1b-9e95-3208bb18e0e1]    step_function()
+[MFLOG|0|2022-01-13T12:17:55.534766Z|runtime|f33a06e7-97dc-4ac4-9c4f-6186218a90ed]  File "classifier_train.py", line 31, in train_svm
+[MFLOG|0|2022-01-13T12:17:55.534822Z|runtime|310dcc20-047d-4911-8aef-c931578df7ce]    self.model.fit(self.train_data, self.train_labels)
+[MFLOG|0|2022-01-13T12:17:55.534875Z|runtime|a0156ea2-47b5-4c89-a8d7-7a4e32304d0c]  File "/home/masinde/PycharmProjects/TheJourneyToDataScience/CupCakeApplication/venv/lib/python3.8/site-packages/sklearn/svm/_base.py", line 255, in fit
+[MFLOG|0|2022-01-13T12:17:55.534928Z|runtime|930fefc2-244a-40ef-8377-d3db1af7b238]    fit(X, y, sample_weight, solver_type, kernel, random_seed=seed)
+[MFLOG|0|2022-01-13T12:17:55.534983Z|runtime|45487c9c-e805-4509-befd-7b6ecae9a121]  File "/home/masinde/PycharmProjects/TheJourneyToDataScience/CupCakeApplication/venv/lib/python3.8/site-packages/sklearn/svm/_base.py", line 315, in _dense_fit
+[MFLOG|0|2022-01-13T12:17:55.535037Z|runtime|2bc184fa-29dc-40c1-ad3c-1c9a90856e4c]    ) = libsvm.fit(
+[MFLOG|0|2022-01-13T12:17:55.535090Z|runtime|fa51a0be-3582-43cb-8bff-13bfb8ffad21]  File "sklearn/svm/_libsvm.pyx", line 173, in sklearn.svm._libsvm.fit
+[MFLOG|0|2022-01-13T12:17:55.535144Z|runtime|f3318f74-d456-43b5-bfe4-6eaff569d088]ValueError: 'polynomial' is not in list
+[MFLOG|0|2022-01-13T12:17:55.535199Z|runtime|84b1987a-65c7-40c5-a25c-3659f9114382]
+[MFLOG|0|2022-01-13T12:17:55.535544Z|runtime|afe34c83-994e-4b78-a0cf-fc9fd4cc06a0]Task failed.
