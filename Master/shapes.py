@@ -1,3 +1,6 @@
+from functools import singledispatch
+
+
 class Shape:
 
     def __init__(self, solid):
@@ -29,6 +32,11 @@ class Triangle(Shape):
         self.pc = pc
 
 
+@singledispatch
+def draw(shape):
+    raise TypeError("Don't know how to draw {!R}".format(shape))
+
+
 def main():
     shapes = [Circle(center=(0, 0), radius=5, solid=False),
               Parallelogram(pa=(0, 0), pb=(2, 0), pc=(1, 1), solid=False),
@@ -36,6 +44,7 @@ def main():
 
     for shape in shapes:
         shape.draw()
+
 
 if __name__ == '__main__':
     main()
