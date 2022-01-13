@@ -15,5 +15,9 @@ class Circle(Shape):
         print("\u25CF" if self.solid else "\u25A1")
 
 
+class Parallelogram(Shape):
+
+    def __init__(self, pa, pb, pc, *args, **kwargs):
+
 
 
