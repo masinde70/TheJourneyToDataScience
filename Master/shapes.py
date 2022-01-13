@@ -40,6 +40,8 @@ class Triangle(Shape):
 
 def main():
     shapes = [Circle(center=(0, 0), radius=5, solid=False),
+              Parallelogram(pa=(0, 0), pb=(2, 0), pc=(1, 1), solid=False),
+
               ]
 
 
