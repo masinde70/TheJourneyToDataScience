@@ -30,6 +30,12 @@ class Parallelogram(Shape):
 class Triangle(Shape):
     
     def __init__(self, pa, pb, pc, *args, **kwargs):
+        self.pa = pa
+        self.pb = pb
+        self.pc = pc
+
+    def draw(self):
+        print("\u25B2" if self.solid else "\u25B3")
 
 
 
