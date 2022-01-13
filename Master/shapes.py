@@ -18,6 +18,11 @@ class Circle(Shape):
 class Parallelogram(Shape):
 
     def __init__(self, pa, pb, pc, *args, **kwargs):
+        super.__init__(*args, **kwargs)
+        self.pa = pa
+        self.pb = pb
+        self.pc = pc
+
 
 
 
