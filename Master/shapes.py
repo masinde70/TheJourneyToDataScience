@@ -39,7 +39,8 @@ class Triangle(Shape):
 
 
 def main():
-    shapes = []
+    shapes = [Circle(center=(0, 0), radius=5, solid=False),
+              ]
 
 
 
