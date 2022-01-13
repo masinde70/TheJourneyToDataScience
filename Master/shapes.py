@@ -38,6 +38,10 @@ class Triangle(Shape):
         print("\u25B2" if self.solid else "\u25B3")
 
 
+def main():
+    shapes = []
+
+
 
 
 
