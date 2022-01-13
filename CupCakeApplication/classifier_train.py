@@ -32,11 +32,18 @@ class ClassifierTrainFlow(FlowSpec):
         self.next(self.choose_model)
 
 
+    @step
+    def choose_model(self, inputs):
+        def score(inp):
+            return inp.model, inp.model.score(inp.test_data, inp.test_labels)
+        self.results = sorted(map(score, inputs), key=lambda x: -x[1])
+        self.model = self.results[0][0]
+        self.next(self.end)
+
 
     @step
     def end(self):
-        self.model = 'nothingburger'
-        print('done')
+
 
 
 if __name__ == '__main__':
