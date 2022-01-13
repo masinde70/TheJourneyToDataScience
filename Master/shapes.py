@@ -46,6 +46,8 @@ def main():
     for shape in shapes:
         shape.draw()
 
+if __name__ == '__main__':
+    main()
 
 
 
