@@ -25,6 +25,11 @@ class Parallelogram(Shape):
 
     def draw(self):
         print("\u25B0" if self.solid else "\u25B1")
+        
+
+class Triangle(Shape):
+    
+    def __init__()
 
 
 
