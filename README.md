@@ -57,7 +57,11 @@ Functions are known as callable objects
  - Extended Formal Parameters Syntax
  - Extended Call Syntax
  - Transposing tables
- - 
+
+## Dispatch
+To dispatch on type means that the code which will be executed depends on some
+way on the type of object or objects.
+
 ## Context Managers
   - Context manager represents code that runs before and after the with-statement's block
   - Context managers are objects designed to work in with-statements
