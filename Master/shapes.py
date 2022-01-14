@@ -46,6 +46,10 @@ def draw(shape):
     raise TypeError("Don't know how to draw {!R}".format(shape))
 
 
+@intersects_with_circle.register(Circle)
+def _(shape, circle):
+    return intersects_with_circle(circle, shape)
+
 
 
 @draw.register(Circle)
