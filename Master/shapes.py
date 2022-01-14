@@ -42,6 +42,8 @@ def _(shape):
     print("\n25CF" if shape.solid else "\u25A1")
 
 
+@draw.register(Parallelogram)
+
 
 
 def main():
