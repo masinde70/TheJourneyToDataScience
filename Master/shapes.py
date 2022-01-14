@@ -14,6 +14,10 @@ class Circle(Shape):
         self.center = center
         self.radius = radius
 
+    def intersect(self, shape):
+        # Delegate to the generic function, swapping arguments
+        return intersects_with_circle(shape, self)
+
 
 class Parallelogram(Shape):
 
