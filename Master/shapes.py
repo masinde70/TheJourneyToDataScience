@@ -37,6 +37,13 @@ def draw(shape):
     raise TypeError("Don't know how to draw {!R}".format(shape))
 
 
+@draw.register(Circle)
+def _(shape):
+    print("\n25CF" if shape.solid else "\u25A1")
+
+
+
+
 def main():
     shapes = [Circle(center=(0, 0), radius=5, solid=False),
               Parallelogram(pa=(0, 0), pb=(2, 0), pc=(1, 1), solid=False),
