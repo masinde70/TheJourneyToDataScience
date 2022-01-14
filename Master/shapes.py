@@ -39,10 +39,12 @@ def draw(shape):
 
 @draw.register(Circle)
 def _(shape):
-    print("\n25CF" if shape.solid else "\u25A1")
+    print("\u25CF" if shape.solid else "\u25A1")
 
 
 @draw.register(Parallelogram)
+def _(shape):
+    print("\u25B0" if shape.solid else "\u25B1")
 
 
 
