@@ -47,6 +47,10 @@ def _(shape):
     print("\u25B0" if shape.solid else "\u25B1")
 
 
+@draw.register(Triangle)
+def _(shape):
+    print("\u25B2" if shape.solid else "\u25B3")
+
 
 def main():
     shapes = [Circle(center=(0, 0), radius=5, solid=False),
