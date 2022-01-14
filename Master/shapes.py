@@ -19,6 +19,11 @@ class Circle(Shape):
         return intersects_with_circle(shape, self)
 
 
+@singledispatch
+def intersects_with_circle(shape, circle):
+    raise TypeError("Don't know how to compute intersection of {!r} with {!r}".format(circle, shape))
+
+
 class Parallelogram(Shape):
 
     def __init__(self, pa, pb, pc, *args, **kwargs):
@@ -39,6 +44,8 @@ class Triangle(Shape):
 @singledispatch
 def draw(shape):
     raise TypeError("Don't know how to draw {!R}".format(shape))
+
+
 
 
 @draw.register(Circle)
