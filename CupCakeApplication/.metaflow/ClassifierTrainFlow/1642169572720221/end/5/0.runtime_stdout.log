@@ -1,0 +1,3 @@
+[MFLOG|0|2022-01-14T14:12:55.352041Z|runtime|51f84452-6844-4dfa-935d-851a7edc6b82]scores:
+[MFLOG|0|2022-01-14T14:12:55.648833Z|runtime|8e7fba8c-bbc6-415b-ae01-55d237b48c0d]KNeighborsClassifier() 0.666667
+[MFLOG|0|2022-01-14T14:12:55.760246Z|runtime|fbf0fb81-45bd-4eac-b408-4d212fec2289]SVC(kernel='poly') 0.652778
