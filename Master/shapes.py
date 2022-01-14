@@ -14,7 +14,7 @@ class Circle(Shape):
         self.center = center
         self.radius = radius
 
-    def intersect(self, shape):
+    def intersects(self, shape):
         # Delegate to the generic function, swapping arguments
         return intersects_with_circle(shape, self)
 
@@ -44,12 +44,6 @@ class Triangle(Shape):
 @singledispatch
 def draw(shape):
     raise TypeError("Don't know how to draw {!R}".format(shape))
-
-
-@intersects_with_circle.register(Circle)
-def _(shape, circle):
-    return intersects_with_circle(circle, shape)
-
 
 
 @draw.register(Circle)
