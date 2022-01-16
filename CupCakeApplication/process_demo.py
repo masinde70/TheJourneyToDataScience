@@ -20,3 +20,5 @@ class ProcessDemoFlow(FlowSpec):
         print('global value is', globa_value)
 
 
+if __name__ == '__main__':
+    ProcessDemoFlow()
