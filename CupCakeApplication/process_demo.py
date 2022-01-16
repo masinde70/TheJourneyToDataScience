@@ -12,4 +12,6 @@ class ProcessDemoFlow(FlowSpec):
         globa_value = 9
         print('process ID is ', os.getpid())
         print('global value is', globa_value)
+        self.next(self.end)
+
 
