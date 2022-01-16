@@ -10,4 +10,6 @@ class ProcessDemoFlow(FlowSpec):
     def start(self):
         global globa_value
         globa_value = 9
+        print('process ID is ', os.getpid())
+        print('global value is', globa_value)
 
