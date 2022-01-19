@@ -1,0 +1,3 @@
+==> 2022-01-12 13:09:14 <==
+# cmd: /usr/local/Caskroom/miniforge/base/bin/conda create --prefix ./env
+# conda version: 4.10.3
