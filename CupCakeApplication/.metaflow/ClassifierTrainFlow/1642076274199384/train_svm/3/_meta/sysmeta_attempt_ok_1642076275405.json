@@ -1,0 +1,1 @@
+{"flow_id": "ClassifierTrainFlow", "run_number": "1642076274199384", "step_name": "train_svm", "task_id": "3", "field_name": "attempt_ok", "type": "internal_attempt_status", "value": "False", "tags": ["attempt_id:0"], "user_name": "masinde", "ts_epoch": 1642076275405}

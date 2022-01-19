@@ -1,0 +1,28 @@
+[MFLOG|0|2022-01-03T07:42:10.167216Z|runtime|4dd05e1a-5018-44ed-8674-4d504394c3b1]<flow WideForeach step join> failed:
+[MFLOG|0|2022-01-03T07:42:10.169663Z|runtime|0d0e5f7c-eebe-4eea-bca3-4785deff94c6]    Internal error
+[MFLOG|0|2022-01-03T07:42:10.170392Z|runtime|6ceeb9b9-2cf8-44ea-8c81-fbfdb164370a]Traceback (most recent call last):
+[MFLOG|0|2022-01-03T07:42:10.170519Z|runtime|d57f5aa6-0333-46ba-b51e-01ef1a55470e]  File "/home/masinde/anaconda3/lib/python3.7/site-packages/metaflow/cli.py", line 1111, in main
+[MFLOG|0|2022-01-03T07:42:10.170645Z|runtime|d29c4fee-3fb2-4348-a3d1-a846af9d855d]    start(auto_envvar_prefix="METAFLOW", obj=state)
+[MFLOG|0|2022-01-03T07:42:10.170741Z|runtime|57fbebed-21f8-4f7a-bbcb-5fadbd234240]  File "/home/masinde/anaconda3/lib/python3.7/site-packages/click/core.py", line 1128, in __call__
+[MFLOG|0|2022-01-03T07:42:10.170818Z|runtime|fc2331a9-4b48-44e4-b4af-e05ace1f7ff8]    return self.main(args, kwargs)
+[MFLOG|0|2022-01-03T07:42:10.252560Z|runtime|c5817cff-5c85-4ee4-aa9f-69b2a020e8d8]  File "/home/masinde/anaconda3/lib/python3.7/site-packages/click/core.py", line 1053, in main
+[MFLOG|0|2022-01-03T07:42:10.252731Z|runtime|e2561b46-5c9d-4f6e-a923-39fbf73387a1]    rv = self.invoke(ctx)
+[MFLOG|0|2022-01-03T07:42:10.252863Z|runtime|f6ec9396-67ea-44bc-8039-aae55d7875af]  File "/home/masinde/anaconda3/lib/python3.7/site-packages/click/core.py", line 1659, in invoke
+[MFLOG|0|2022-01-03T07:42:10.252977Z|runtime|b89dad30-3151-4eb9-b2aa-b73fcf9fe780]    return _process_result(sub_ctx.command.invoke(sub_ctx))
+[MFLOG|0|2022-01-03T07:42:10.253082Z|runtime|d1c6ab86-c169-4296-b2e3-043661067745]  File "/home/masinde/anaconda3/lib/python3.7/site-packages/click/core.py", line 1395, in invoke
+[MFLOG|0|2022-01-03T07:42:10.253141Z|runtime|d816ae50-a304-4fe7-8a77-8c13e7a94313]    return ctx.invoke(self.callback, ctx.params)
+[MFLOG|0|2022-01-03T07:42:10.253199Z|runtime|42ad3a8b-6403-414f-a390-207b832570cb]  File "/home/masinde/anaconda3/lib/python3.7/site-packages/click/core.py", line 754, in invoke
+[MFLOG|0|2022-01-03T07:42:10.253258Z|runtime|5ab6702e-1ff7-4081-8f2a-79166ef369cc]    return __callback(args, kwargs)
+[MFLOG|0|2022-01-03T07:42:10.253325Z|runtime|81cac617-2414-4cf6-b076-b7a3aa4529d4]  File "/home/masinde/anaconda3/lib/python3.7/site-packages/click/decorators.py", line 26, in new_func
+[MFLOG|0|2022-01-03T07:42:10.253388Z|runtime|9db8d9b0-b34a-499f-b2ac-fae6894333f7]    return f(get_current_context(), args, kwargs)
+[MFLOG|0|2022-01-03T07:42:10.253450Z|runtime|7dae40df-8375-4e0d-9c5a-b4404fb5440a]  File "/home/masinde/anaconda3/lib/python3.7/site-packages/metaflow/cli.py", line 553, in step
+[MFLOG|0|2022-01-03T07:42:10.253511Z|runtime|d9ba348d-9e82-440c-86f7-f6711dcf33a9]    max_user_code_retries,
+[MFLOG|0|2022-01-03T07:42:10.253573Z|runtime|f6a1d038-523a-48ac-8c13-336846042c7a]  File "/home/masinde/anaconda3/lib/python3.7/site-packages/metaflow/task.py", line 523, in run_step
+[MFLOG|0|2022-01-03T07:42:10.253634Z|runtime|ce2da916-5d87-4a1d-aa08-fb797608225a]    self._exec_step_function(step_func, input_obj)
+[MFLOG|0|2022-01-03T07:42:10.253695Z|runtime|446a0773-e00a-41cd-bcd1-4f6e086ae62b]  File "/home/masinde/anaconda3/lib/python3.7/site-packages/metaflow/task.py", line 55, in _exec_step_function
+[MFLOG|0|2022-01-03T07:42:10.253782Z|runtime|519189c7-1c4a-4c38-86f6-baf9cedfacae]    step_function(input_obj)
+[MFLOG|0|2022-01-03T07:42:10.253845Z|runtime|cf658654-3b6f-426d-a099-230197ae2da5]  File "wide_foreach.py", line 18, in join
+[MFLOG|0|2022-01-03T07:42:10.253906Z|runtime|6dff6cb6-7c30-4924-a31b-746951cee4bd]    self.total = super(inp.result for inp in inputs)
+[MFLOG|0|2022-01-03T07:42:10.253967Z|runtime|a52f49a4-f174-4135-b935-958a04521162]TypeError: super() argument 1 must be type, not generator
+[MFLOG|0|2022-01-03T07:42:10.254029Z|runtime|323d2479-4180-42b5-9dde-f61f35057bac]
+[MFLOG|0|2022-01-03T07:42:10.254363Z|runtime|9917af2b-5994-4c5c-bb5d-63c37914190d]Task failed.

@@ -1,0 +1,1 @@
+{"run_number": "1642073366758493", "step_name": "start", "task_id": "1", "flow_id": "ClassifierTrainFlow", "user_name": "masinde", "tags": [], "system_tags": ["python_version:3.8.10", "metaflow_version:2.4.8", "date:2022-01-13", "user:masinde", "runtime:dev"], "ts_epoch": 1642073366762}

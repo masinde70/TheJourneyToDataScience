@@ -57,7 +57,11 @@ Functions are known as callable objects
  - Extended Formal Parameters Syntax
  - Extended Call Syntax
  - Transposing tables
- - 
+
+## Dispatch
+To dispatch on type means that the code which will be executed depends on some
+way on the type of object or objects.
+
 ## Context Managers
   - Context manager represents code that runs before and after the with-statement's block
   - Context managers are objects designed to work in with-statements
@@ -307,4 +311,19 @@ Job Scheduler is the system that executes a workflow
 The step that fans out branches is a split step and the step that fans in branches
 is called a join step
 * A join step can only join steps that have a common split parent
+
+### Numerical computing loves dynamic branching
+The pattern of executing a piece of code for different parts of data in parallel and then collecting the results is 
+universal in numerical computing
+
+- Bulk Synchronous Parallel
+- Map reduce
+- Fork-Join model
+- Parallel Map
+
+### Starting new project
+1. What is the business problem we are trying to solve?
+2. What input data can we use? How and where can we read it?
+3. What should be the output data? How and where should we write it?
+4. What techniques can we use to produce a better output based on the input
 

@@ -1,0 +1,1 @@
+{"flow_id": "ClassifierTrainFlow", "run_number": "1642169572720221", "step_name": "choose_model", "task_id": "4", "field_name": "ds-root", "type": "ds-root", "value": "/home/masinde/PycharmProjects/TheJourneyToDataScience/CupCakeApplication/.metaflow", "tags": ["attempt_id:0"], "user_name": "masinde", "ts_epoch": 1642169574685}
