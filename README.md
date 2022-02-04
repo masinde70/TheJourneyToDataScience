@@ -1,6 +1,6 @@
 # The Journey To DataScience
 Data Scientists are expected to build end-to-end solutions to business problems,
-which models are a small but important part of it. Data scientist builds data sceince
+which models are a small but important part of it. Data scientist builds data science 
 applications.
 
 ## Python Books I am using and for me, they are the best out there
@@ -10,7 +10,7 @@ I have used different python books but these three books for me stands out as gi
  3. The Python Master
  4. 
 
-In this journey I will learn many things, so you can follow along
+In this python journey I will learn many things, so you can follow along
 - Error handling
 - Decorators
 - Containers
