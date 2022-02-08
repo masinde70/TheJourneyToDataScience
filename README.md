@@ -112,6 +112,7 @@ way on the type of object or objects.
 2. [MLOPs Deep learning in production by Sergios Karagianakos](https://leanpub.com/DLProd)
 3. [Machine learning engineering by Andriy Burkov](https://leanpub.com/MLE)
 4. [A Programmer's Guide to Artificial Intelligence by Laurence Moroney](https://theaisummer.com/deep-learning-books-2022/)
+5. [Machine learning Interview by Chip Huyen](https://huyenchip.com/ml-interviews-book/)
 
 
 ## Blogs which I follow and learn new things
