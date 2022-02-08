@@ -329,4 +329,5 @@ universal in numerical computing
 
 # Learning summary 
 1. Set goals and accountability 
+2. Break down project into small goals
 
