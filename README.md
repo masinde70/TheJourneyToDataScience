@@ -327,3 +327,5 @@ universal in numerical computing
 3. What should be the output data? How and where should we write it?
 4. What techniques can we use to produce a better output based on the input
 
+#Learning summary 
+
