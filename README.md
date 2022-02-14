@@ -187,6 +187,9 @@ pandas provide high-level data structures and functions designed to make working
  * DataFrame a tabular, column-oriented data structure with both row and column labels
  * Series a one dimensional labelled array object
 
+# matplotlib
+is the most popular Python library for producing plots and other two dimensional data visualisations
+
 # DeepLearning
 When you hear the term deep learning, just think of a large deep neural net. Deep
 refers to the number of layers typically and so this kind of the popular term that’s
