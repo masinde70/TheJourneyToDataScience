@@ -199,7 +199,7 @@ Is a collection of packages addressing a number of foundational problems in scie
  # scikit-learn
  Scikit-learn is an open source machine learning library that supports supervised and unsupervised learnig.
   * Classification -> Identifying which category an object belongs to
-  * Regression ->
+  * Regression -> Predicting a continuous-valued attribute associated with an object
 
 # DeepLearning
 When you hear the term deep learning, just think of a large deep neural net. Deep
