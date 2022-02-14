@@ -196,6 +196,10 @@ Is a collection of packages addressing a number of foundational problems in scie
  * scipy.linalg
  * scipy.optimize
  
+ # scikit-learn
+ Scikit-learn is an open source machine learning library that supports supervised and unsupervised learnig.
+  * Classification -> Identifying which category an object belongs to
+  * Regression ->
 
 # DeepLearning
 When you hear the term deep learning, just think of a large deep neural net. Deep
