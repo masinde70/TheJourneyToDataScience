@@ -203,6 +203,7 @@ Is a collection of packages addressing a number of foundational problems in scie
   * Clustering -> Automatic grouping of similar objects into sets
   * Dimensionality reduction -> Reducing the number of random variables to consinder
   * Model selection -> Comparing, validating and choosing parameters and models.
+  * Preprocessing -> Feature extraction and normalization
   
 # DeepLearning
 When you hear the term deep learning, just think of a large deep neural net. Deep
