@@ -181,6 +181,11 @@ It is a Python library that provides a multidimensional array object, various de
 # Tensorflow
 TensorFlow is an end-to-end open source platform for machine learning. It has a comprehensive, flexible ecosystem of tools, libraries and community resources that lets researchers push the state-of-the-art in ML and developers easily build and deploy ML powered applications.
 
+# pandas
+pandas provide high-level data structures and functions designed to make working with structured or tabular data intuitive and flexible. 
+ * DataFrame a tabular, column-oriented data structure with both row and column labels
+ * Series a one dimensional labelled array object
+
 # DeepLearning
 When you hear the term deep learning, just think of a large deep neural net. Deep
 refers to the number of layers typically and so this kind of the popular term that’s
