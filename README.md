@@ -201,6 +201,7 @@ Is a collection of packages addressing a number of foundational problems in scie
   * Classification -> Identifying which category an object belongs to
   * Regression -> Predicting a continuous-valued attribute associated with an object
   * Clustering -> Automatic grouping of similar objects into sets
+  * Dimensionality reduction -> Reducing the number of random variables to consinder
   
 # DeepLearning
 When you hear the term deep learning, just think of a large deep neural net. Deep
