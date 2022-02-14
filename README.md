@@ -190,6 +190,13 @@ pandas provide high-level data structures and functions designed to make working
 # matplotlib
 is the most popular Python library for producing plots and other two dimensional data visualisations
 
+# SciPy
+Is a collection of packages addressing a number of foundational problems in scientific computing.
+ * scipy.integrate
+ * scipy.linalg
+ * scipy.optimize
+ 
+
 # DeepLearning
 When you hear the term deep learning, just think of a large deep neural net. Deep
 refers to the number of layers typically and so this kind of the popular term that’s
