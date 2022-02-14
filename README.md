@@ -175,7 +175,9 @@ Short for Numerical Python, is a corner stone of numerical computing in Python.
 It is a Python library that provides a multidimensional array object, various derived objects (such as masked arrays and matrices), and an assortment of routines for fast operations on arrays, including mathematical, logical, shape manipulation, sorting, selecting, I/O, discrete Fourier transforms, basic linear algebra, basic statistical operations, random simulation and much more.
  * A fast and efficient multidimensional array objects
  * Functions for perfoming element-wise computations with arrays or mathematical operations between arrays
- * 
+ * Tools for reading and writing array-based dataset to disk
+ * Linear algebra operations, Fourier transform and random number generation
+ * A mature C API to enable Python extensions and native C or C++ code to access Numpy's data structure and computational facilities 
 # Tensorflow
 TensorFlow is an end-to-end open source platform for machine learning. It has a comprehensive, flexible ecosystem of tools, libraries and community resources that lets researchers push the state-of-the-art in ML and developers easily build and deploy ML powered applications.
 
