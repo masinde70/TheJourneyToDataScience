@@ -178,6 +178,8 @@ It is a Python library that provides a multidimensional array object, various de
  * Tools for reading and writing array-based dataset to disk
  * Linear algebra operations, Fourier transform and random number generation
  * A mature C API to enable Python extensions and native C or C++ code to access Numpy's data structure and computational facilities 
+ ## Advantages of numpy over list
+  * Numpy is faster since it o
 # Tensorflow
 TensorFlow is an end-to-end open source platform for machine learning. It has a comprehensive, flexible ecosystem of tools, libraries and community resources that lets researchers push the state-of-the-art in ML and developers easily build and deploy ML powered applications.
 
