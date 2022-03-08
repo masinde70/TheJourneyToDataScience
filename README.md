@@ -129,7 +129,7 @@ way on the type of object or objects.
 8. [Jacob Amaral](https://www.youtube.com/user/jacobamaral)
 9. [Power Analytics](https://analyticshour.io/2021/12/14/182-making-better-decisions-and-being-useful-with-cassie-kozyrkov/?utm_medium=social&utm_source=linkedin)
 10. [AI SUMMER](https://theaisummer.com/deep-learning-books-2022/)
-11. [Deep](https://neurohive.io/en/popular-networks/vgg16/)
+11. [Deep VGG16 CNN](https://neurohive.io/en/popular-networks/vgg16/)
 
 ## Data sources
 [Strategy Titan Blog](https://www.strategytitan.com/blog/titanized-real-world-dataset-to-develop-your-analytics-muscle)
