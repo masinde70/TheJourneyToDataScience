@@ -370,3 +370,7 @@ universal in numerical computing
 2. Break down project into small goals
 3. Focus on small goals
 
+## Fine-tuning
+The first several layers of filters trained are only going to learn line- and shape-based features because their visual fields are so small. We can reuse or freeze the pre-trained weights of the first few layers and only need to train filter weights to detect higher-order features that are more relevant to your specific use cases. We call this process that only makes adjustment of weights in the last a few layers fine-tuning.
+
+One of the key pieces of fine-tuning is the last layer. We need to adjust the dimension of the last layer to match our specific use cases. We can also add new layers to train from scratch.
