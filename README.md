@@ -107,6 +107,13 @@ way on the type of object or objects.
 7. Deep Learning for Natural Language Processing (Jason Brownlee)
 8. Effective Data Science Infrastructure (Ville Tuulos)
 
+## What I have to learn
+* Apache Spark
+*  Databricks
+*  Delta Lake 
+*  MLFLow
+*  Apache Airflow
+
 #### My wish list
 1. [Deep Learning with PyTorch by Eli Stevens, Luca Antiga, and Thomas Viehmann](https://www.manning.com/books/deep-learning-with-pytorch)
 2. [MLOPs Deep learning in production by Sergios Karagianakos](https://leanpub.com/DLProd)
