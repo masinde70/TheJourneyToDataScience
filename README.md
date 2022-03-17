@@ -382,3 +382,13 @@ universal in numerical computing
 The first several layers of filters trained are only going to learn line- and shape-based features because their visual fields are so small. We can reuse or freeze the pre-trained weights of the first few layers and only need to train filter weights to detect higher-order features that are more relevant to your specific use cases. We call this process that only makes adjustment of weights in the last a few layers fine-tuning.
 
 One of the key pieces of fine-tuning is the last layer. We need to adjust the dimension of the last layer to match our specific use cases. We can also add new layers to train from scratch.
+
+This is one of the biggest reasons for ML model failure. Here are 5 top questions we should ask before jumping into model building:
+
+1. Do we have a crystal clear understanding of the business requirements/context?
+2.  Do we have enough "quality" data that represent real world cases?
+3.  Are we planning to use fancy/complex models only for show-off?
+4.  Are we choosing the right metrics for model evaluation?
+5.  Are we aware of data drift and model drift that may happen after the model is deployed to production?
+
+What other questions do you ask to avoid model failures?
