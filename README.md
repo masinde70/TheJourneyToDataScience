@@ -405,6 +405,7 @@ TCIA is a service which de-identifies and hosts a large archive of medical image
 
 1. [National Cance Institute](https://www.cancerimagingarchive.net/access-data/)
 2. [RED-CNN](https://github.com/SSinyu/RED-CNN)
+3. [RED-CNN paper](https://arxiv.org/ftp/arxiv/papers/1702/1702.00288.pdf)
 
 ### Medical Imaging Tutorial by DARIEN SCHETTLER 
 1. [Multiclass semantic segmentation using DeepLabV3+](https://keras.io/examples/vision/deeplabv3_plus/#building-the-deeplabv3-model)
