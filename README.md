@@ -151,6 +151,8 @@ way on the type of object or objects.
 16. [The downside of machine learning in health care](https://news.mit.edu/2022/marzyeh-ghassemi-explores-downside-machine-learning-health-care-0201)
 17. [CLINICAL EVALUATION OF A MEDICAL DEVICE: CREATING A PROCESS AND ESTABLISHING EQUIVALENCY](https://www.greenlight.guru/blog/clinical-evaluation-process-equivalency)
 18. [CT Physics: CT Reconstruction and Helical CT](http://xrayphysics.com/ctsim.html)
+19. [AI COMPANIES FOR IMAGES](https://aicentral.acrdsi.org/)
+20. [Radiology](https://www.acrdsi.org/Blog/4-Steps-Radiology-Residents)
 
 ## Data sources
 [Strategy Titan Blog](https://www.strategytitan.com/blog/titanized-real-world-dataset-to-develop-your-analytics-muscle)
