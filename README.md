@@ -145,6 +145,12 @@ way on the type of object or objects.
 10. [AI SUMMER](https://theaisummer.com/deep-learning-books-2022/)
 11. [Deep VGG16 CNN](https://neurohive.io/en/popular-networks/vgg16/)
 12. [Chip Huyen2](https://huyenchip.com/2022/02/07/data-distribution-shifts-and-monitoring.html?utm_content=buffer2111b&utm_medium=social&utm_source=linkedin.com&utm_campaign=buffer)
+13. [Intro to Proabability for Data Science](https://probability4datascience.com/lecture.html)
+14. [Sequantial Decision Analytics](https://castlelab.princeton.edu/sda/)
+15. [How Machine Generated Virtual Assistants can 10x Your Productivity in 2022](https://hackernoon.com/how-machine-generated-virtual-assistants-can-10x-your-productivity-in-2022)
+16. [The downside of machine learning in health care](https://news.mit.edu/2022/marzyeh-ghassemi-explores-downside-machine-learning-health-care-0201)
+17. [CLINICAL EVALUATION OF A MEDICAL DEVICE: CREATING A PROCESS AND ESTABLISHING EQUIVALENCY](https://www.greenlight.guru/blog/clinical-evaluation-process-equivalency)
+18. [CT Physics: CT Reconstruction and Helical CT](http://xrayphysics.com/ctsim.html)
 
 ## Data sources
 [Strategy Titan Blog](https://www.strategytitan.com/blog/titanized-real-world-dataset-to-develop-your-analytics-muscle)
