@@ -401,8 +401,6 @@ This is one of the biggest reasons for ML model failure. Here are 5 top question
 What other questions do you ask to avoid model failures?
 
 ### Medical Imaging Tutorial
-[Multiclass semantic segmentation using DeepLabV3+](https://keras.io/examples/vision/deeplabv3_plus/#building-the-deeplabv3-model)
-[UWM - GI Tract Image Segmentation - EDA
-](https://www.kaggle.com/code/dschettler8845/uwm-gi-tract-image-segmentation-eda#create_dataset)
-[UWMGIT - DeepLabV3+ - End-to-End Pipeline [TF]
-](https://www.kaggle.com/code/dschettler8845/uwmgit-deeplabv3-end-to-end-pipeline-tf)
+1. [Multiclass semantic segmentation using DeepLabV3+](https://keras.io/examples/vision/deeplabv3_plus/#building-the-deeplabv3-model)
+2. [UWM - GI Tract Image Segmentation - EDA](https://www.kaggle.com/code/dschettler8845/uwm-gi-tract-image-segmentation-eda#create_dataset)
+3. [UWMGIT - DeepLabV3+ - End-to-End Pipeline [TF]](https://www.kaggle.com/code/dschettler8845/uwmgit-deeplabv3-end-to-end-pipeline-tf)
