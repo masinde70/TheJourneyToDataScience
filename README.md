@@ -120,6 +120,13 @@ way on the type of object or objects.
 3. [Machine learning engineering by Andriy Burkov](https://leanpub.com/MLE)
 4. [A Programmer's Guide to Artificial Intelligence by Laurence Moroney](https://theaisummer.com/deep-learning-books-2022/)
 
+### Machine Learning Systems Design Stanford
+1. [CS 329S: Machine Learning Systems Design](https://stanford-cs329s.github.io/syllabus.html)
+2. [The ML booklet by Chip Huyen](https://huyenchip.com/machine-learning-systems-design/toc.html)
+3. [Grokking the Machine Learning Interview](https://www.educative.io/courses/grokking-the-machine-learning-interview)
+4. [Machine Learning Engineering for Production (MLOps) Specialization](https://www.coursera.org/specializations/machine-learning-engineering-for-production-mlops)
+
+
 #### Interview books
 1. [Machine learning Interview by Chip Huyen](https://huyenchip.com/ml-interviews-book/)
 2. [Machine Learning Interview questions](https://arxiv.org/abs/2201.00650)
