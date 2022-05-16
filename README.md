@@ -114,6 +114,10 @@ way on the type of object or objects.
 *  MLFLow
 *  Apache Airflow
 
+#### Graphs
+1. [Introduction to Graph Neural networks](https://distill.pub/2021/gnn-intro/)
+2. [Knowledge Graph](https://innovator.news/the-business-case-for-knowledge-graphs-d6764592028e)
+
 #### My wish list
 1. [Deep Learning with PyTorch by Eli Stevens, Luca Antiga, and Thomas Viehmann](https://www.manning.com/books/deep-learning-with-pytorch)
 2. [MLOPs Deep learning in production by Sergios Karagianakos](https://leanpub.com/DLProd)
