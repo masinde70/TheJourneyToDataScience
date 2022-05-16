@@ -117,12 +117,14 @@ way on the type of object or objects.
 #### Graphs
 1. [Introduction to Graph Neural networks](https://distill.pub/2021/gnn-intro/)
 2. [Knowledge Graph](https://innovator.news/the-business-case-for-knowledge-graphs-d6764592028e)
+3. [Bayesian Deep Learning for Graphs](https://media-exp1.licdn.com/dms/document/C4D1FAQF0H08wyZ-DkQ/feedshare-document-pdf-analyzed/0/1652694801183?e=1653523200&v=beta&t=Npq_Qw8tmFU1hp21xnxcTtbYcLNvs2tugO2LyQhx3Z8)
 
 #### My wish list
 1. [Deep Learning with PyTorch by Eli Stevens, Luca Antiga, and Thomas Viehmann](https://www.manning.com/books/deep-learning-with-pytorch)
 2. [MLOPs Deep learning in production by Sergios Karagianakos](https://leanpub.com/DLProd)
 3. [Machine learning engineering by Andriy Burkov](https://leanpub.com/MLE)
 4. [A Programmer's Guide to Artificial Intelligence by Laurence Moroney](https://theaisummer.com/deep-learning-books-2022/)
+5. [Designing Machine Learning Systems](https://www.amazon.com/Designing-Machine-Learning-Systems-Production-Ready/dp/1098107969)
 
 ### Machine Learning Systems Design 
 1. [CS 329S: Machine Learning Systems Design](https://stanford-cs329s.github.io/syllabus.html)
