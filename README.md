@@ -136,6 +136,7 @@ way on the type of object or objects.
 #### Interview books
 1. [Machine learning Interview by Chip Huyen](https://huyenchip.com/ml-interviews-book/)
 2. [Machine Learning Interview questions](https://arxiv.org/abs/2201.00650)
+3. [Machine Learning Design Interview: Machine Learning System Design Interviewv](https://www.amazon.com/Machine-Learning-Design-Interview-System-ebook/dp/B09ZKJSKZ1/ref=tmm_kin_swatch_0?_encoding=UTF8&qid=&sr=)
 
 
 ## Blogs which I follow and learn new things
