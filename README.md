@@ -118,6 +118,9 @@ way on the type of object or objects.
 1. [Introduction to Graph Neural networks](https://distill.pub/2021/gnn-intro/)
 2. [Knowledge Graph](https://innovator.news/the-business-case-for-knowledge-graphs-d6764592028e)
 3. [Bayesian Deep Learning for Graphs](https://media-exp1.licdn.com/dms/document/C4D1FAQF0H08wyZ-DkQ/feedshare-document-pdf-analyzed/0/1652694801183?e=1653523200&v=beta&t=Npq_Qw8tmFU1hp21xnxcTtbYcLNvs2tugO2LyQhx3Z8)
+4. [Graphs](https://dlg4nlp.github.io/index.html)
+5. [A Gentle Introduction to Graph Neural Networks](https://distill.pub/2021/gnn-intro/)
+6. 
 
 #### My wish list
 1. [Deep Learning with PyTorch by Eli Stevens, Luca Antiga, and Thomas Viehmann](https://www.manning.com/books/deep-learning-with-pytorch)
