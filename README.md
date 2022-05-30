@@ -107,11 +107,40 @@ way on the type of object or objects.
 7. Deep Learning for Natural Language Processing (Jason Brownlee)
 8. Effective Data Science Infrastructure (Ville Tuulos)
 
+## What I have to learn
+* Apache Spark
+*  Databricks
+*  Delta Lake 
+*  MLFLow
+*  Apache Airflow
+
+#### Graphs
+1. [Introduction to Graph Neural networks](https://distill.pub/2021/gnn-intro/)
+2. [Knowledge Graph](https://innovator.news/the-business-case-for-knowledge-graphs-d6764592028e)
+3. [Bayesian Deep Learning for Graphs](https://media-exp1.licdn.com/dms/document/C4D1FAQF0H08wyZ-DkQ/feedshare-document-pdf-analyzed/0/1652694801183?e=1653523200&v=beta&t=Npq_Qw8tmFU1hp21xnxcTtbYcLNvs2tugO2LyQhx3Z8)
+4. [Graphs](https://dlg4nlp.github.io/index.html)
+5. [A Gentle Introduction to Graph Neural Networks](https://distill.pub/2021/gnn-intro/)
+6. 
+
 #### My wish list
 1. [Deep Learning with PyTorch by Eli Stevens, Luca Antiga, and Thomas Viehmann](https://www.manning.com/books/deep-learning-with-pytorch)
 2. [MLOPs Deep learning in production by Sergios Karagianakos](https://leanpub.com/DLProd)
 3. [Machine learning engineering by Andriy Burkov](https://leanpub.com/MLE)
 4. [A Programmer's Guide to Artificial Intelligence by Laurence Moroney](https://theaisummer.com/deep-learning-books-2022/)
+5. [Designing Machine Learning Systems](https://www.amazon.com/Designing-Machine-Learning-Systems-Production-Ready/dp/1098107969)
+
+### Machine Learning Systems Design 
+1. [CS 329S: Machine Learning Systems Design](https://stanford-cs329s.github.io/syllabus.html)
+2. [The ML booklet by Chip Huyen](https://huyenchip.com/machine-learning-systems-design/toc.html)
+3. [Grokking the Machine Learning Interview](https://www.educative.io/courses/grokking-the-machine-learning-interview)
+4. [Machine Learning Engineering for Production (MLOps) Specialization](https://www.coursera.org/specializations/machine-learning-engineering-for-production-mlops)
+
+
+#### Interview books
+1. [Machine learning Interview by Chip Huyen](https://huyenchip.com/ml-interviews-book/)
+2. [Machine Learning Interview questions](https://arxiv.org/abs/2201.00650)
+3. [Machine Learning Design Interview: Machine Learning System Design Interviewv](https://www.amazon.com/Machine-Learning-Design-Interview-System-ebook/dp/B09ZKJSKZ1/ref=tmm_kin_swatch_0?_encoding=UTF8&qid=&sr=)
+4. [medium](https://mlengineer.io/from-google-rejection-to-40-offers-71337a224ebe)
 
 
 ## Blogs which I follow and learn new things
@@ -125,6 +154,16 @@ way on the type of object or objects.
 8. [Jacob Amaral](https://www.youtube.com/user/jacobamaral)
 9. [Power Analytics](https://analyticshour.io/2021/12/14/182-making-better-decisions-and-being-useful-with-cassie-kozyrkov/?utm_medium=social&utm_source=linkedin)
 10. [AI SUMMER](https://theaisummer.com/deep-learning-books-2022/)
+11. [Deep VGG16 CNN](https://neurohive.io/en/popular-networks/vgg16/)
+12. [Chip Huyen2](https://huyenchip.com/2022/02/07/data-distribution-shifts-and-monitoring.html?utm_content=buffer2111b&utm_medium=social&utm_source=linkedin.com&utm_campaign=buffer)
+13. [Intro to Proabability for Data Science](https://probability4datascience.com/lecture.html)
+14. [Sequantial Decision Analytics](https://castlelab.princeton.edu/sda/)
+15. [How Machine Generated Virtual Assistants can 10x Your Productivity in 2022](https://hackernoon.com/how-machine-generated-virtual-assistants-can-10x-your-productivity-in-2022)
+16. [The downside of machine learning in health care](https://news.mit.edu/2022/marzyeh-ghassemi-explores-downside-machine-learning-health-care-0201)
+17. [CLINICAL EVALUATION OF A MEDICAL DEVICE: CREATING A PROCESS AND ESTABLISHING EQUIVALENCY](https://www.greenlight.guru/blog/clinical-evaluation-process-equivalency)
+18. [CT Physics: CT Reconstruction and Helical CT](http://xrayphysics.com/ctsim.html)
+19. [AI COMPANIES FOR IMAGES](https://aicentral.acrdsi.org/)
+20. [Radiology](https://www.acrdsi.org/Blog/4-Steps-Radiology-Residents)
 
 ## Data sources
 [Strategy Titan Blog](https://www.strategytitan.com/blog/titanized-real-world-dataset-to-develop-your-analytics-muscle)
@@ -167,10 +206,43 @@ Machine learning, or ML, is a modern software development technique that enables
   A machine learning algorithm tries to learn the underlying patterns or distributions that govern the data.
   
 # Numpy
+Short for Numerical Python, is a corner stone of numerical computing in Python.
 It is a Python library that provides a multidimensional array object, various derived objects (such as masked arrays and matrices), and an assortment of routines for fast operations on arrays, including mathematical, logical, shape manipulation, sorting, selecting, I/O, discrete Fourier transforms, basic linear algebra, basic statistical operations, random simulation and much more.
+ * A fast and efficient multidimensional array objects
+ * Functions for perfoming element-wise computations with arrays or mathematical operations between arrays
+ * Tools for reading and writing array-based dataset to disk
+ * Linear algebra operations, Fourier transform and random number generation
+ * A mature C API to enable Python extensions and native C or C++ code to access Numpy's data structure and computational facilities 
+ ## Advantages of numpy over list
+  * Numpy is faster since it occupies small memory compared to built in lists
+  * Faster to read less bytes in memory 
 # Tensorflow
 TensorFlow is an end-to-end open source platform for machine learning. It has a comprehensive, flexible ecosystem of tools, libraries and community resources that lets researchers push the state-of-the-art in ML and developers easily build and deploy ML powered applications.
 
+# pandas
+derived from panel data
+pandas provide high-level data structures and functions designed to make working with structured or tabular data intuitive and flexible. 
+ * DataFrame a tabular, column-oriented data structure with both row and column labels
+ * Series a one dimensional labelled array object
+
+# matplotlib
+is the most popular Python library for producing plots and other two dimensional data visualisations
+
+# SciPy
+Is a collection of packages addressing a number of foundational problems in scientific computing.
+ * scipy.integrate
+ * scipy.linalg
+ * scipy.optimize
+ 
+ # scikit-learn
+ Scikit-learn is an open source machine learning library that supports supervised and unsupervised learnig.
+  * Classification -> Identifying which category an object belongs to
+  * Regression -> Predicting a continuous-valued attribute associated with an object
+  * Clustering -> Automatic grouping of similar objects into sets
+  * Dimensionality reduction -> Reducing the number of random variables to consinder
+  * Model selection -> Comparing, validating and choosing parameters and models.
+  * Preprocessing -> Feature extraction and normalization
+  
 # DeepLearning
 When you hear the term deep learning, just think of a large deep neural net. Deep
 refers to the number of layers typically and so this kind of the popular term that’s
@@ -327,3 +399,34 @@ universal in numerical computing
 3. What should be the output data? How and where should we write it?
 4. What techniques can we use to produce a better output based on the input
 
+# Learning summary 
+1. Set goals and accountability 
+2. Break down project into small goals
+3. Focus on small goals
+
+## Fine-tuning
+The first several layers of filters trained are only going to learn line- and shape-based features because their visual fields are so small. We can reuse or freeze the pre-trained weights of the first few layers and only need to train filter weights to detect higher-order features that are more relevant to your specific use cases. We call this process that only makes adjustment of weights in the last a few layers fine-tuning.
+
+One of the key pieces of fine-tuning is the last layer. We need to adjust the dimension of the last layer to match our specific use cases. We can also add new layers to train from scratch.
+
+This is one of the biggest reasons for ML model failure. Here are 5 top questions we should ask before jumping into model building:
+
+1. Do we have a crystal clear understanding of the business requirements/context?
+2.  Do we have enough "quality" data that represent real world cases?
+3.  Are we planning to use fancy/complex models only for show-off?
+4.  Are we choosing the right metrics for model evaluation?
+5.  Are we aware of data drift and model drift that may happen after the model is deployed to production?
+
+What other questions do you ask to avoid model failures?
+
+### Cancer Image Collection for Deep Learning
+TCIA is a service which de-identifies and hosts a large archive of medical images of cancer accessible for public download. The data are organized as “collections”; typically patients’ imaging related by a common disease (e.g. lung cancer), image modality or type (MRI, CT, digital histopathology, etc) or research focus. DICOM is the primary file format used by TCIA for radiology imaging. Supporting data related to the images such as patient outcomes, treatment details, genomics and expert analyses are also provided when available.
+
+1. [National Cance Institute](https://www.cancerimagingarchive.net/access-data/)
+2. [RED-CNN](https://github.com/SSinyu/RED-CNN)
+3. [RED-CNN paper](https://arxiv.org/ftp/arxiv/papers/1702/1702.00288.pdf)
+
+### Medical Imaging Tutorial by DARIEN SCHETTLER 
+1. [Multiclass semantic segmentation using DeepLabV3+](https://keras.io/examples/vision/deeplabv3_plus/#building-the-deeplabv3-model)
+2. [UWM - GI Tract Image Segmentation - EDA](https://www.kaggle.com/code/dschettler8845/uwm-gi-tract-image-segmentation-eda#create_dataset)
+3. [UWMGIT - DeepLabV3+ - End-to-End Pipeline [TF]](https://www.kaggle.com/code/dschettler8845/uwmgit-deeplabv3-end-to-end-pipeline-tf)
