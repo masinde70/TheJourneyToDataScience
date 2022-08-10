@@ -3,6 +3,9 @@ Data Scientists are expected to build end-to-end solutions to business problems,
 which models are a small but important part of it. Data scientist builds data science 
 applications.
 
+## Yan 
+[ann LeCun’s Deep Learning Course at CDS](https://cds.nyu.edu/deep-learning/)
+
 ## Python Books I am using and for me, they are the best out there
 I have used different python books but these three books for me stands out as giants
  1. The Python Apprentice
