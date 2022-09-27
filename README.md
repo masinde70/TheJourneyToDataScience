@@ -3,6 +3,9 @@ Data Scientists are expected to build end-to-end solutions to business problems,
 which models are a small but important part of it. Data scientist builds data science 
 applications.
 
+## Yan 
+[Yann LeCun’s Deep Learning Course at CDS](https://cds.nyu.edu/deep-learning/)
+
 ## Python Books I am using and for me, they are the best out there
 I have used different python books but these three books for me stands out as giants
  1. The Python Apprentice
@@ -114,11 +117,20 @@ way on the type of object or objects.
 *  MLFLow
 *  Apache Airflow
 
+#### Graphs
+1. [Introduction to Graph Neural networks](https://distill.pub/2021/gnn-intro/)
+2. [Knowledge Graph](https://innovator.news/the-business-case-for-knowledge-graphs-d6764592028e)
+3. [Bayesian Deep Learning for Graphs](https://media-exp1.licdn.com/dms/document/C4D1FAQF0H08wyZ-DkQ/feedshare-document-pdf-analyzed/0/1652694801183?e=1653523200&v=beta&t=Npq_Qw8tmFU1hp21xnxcTtbYcLNvs2tugO2LyQhx3Z8)
+4. [Graphs](https://dlg4nlp.github.io/index.html)
+5. [A Gentle Introduction to Graph Neural Networks](https://distill.pub/2021/gnn-intro/)
+6. 
+
 #### My wish list
 1. [Deep Learning with PyTorch by Eli Stevens, Luca Antiga, and Thomas Viehmann](https://www.manning.com/books/deep-learning-with-pytorch)
 2. [MLOPs Deep learning in production by Sergios Karagianakos](https://leanpub.com/DLProd)
 3. [Machine learning engineering by Andriy Burkov](https://leanpub.com/MLE)
 4. [A Programmer's Guide to Artificial Intelligence by Laurence Moroney](https://theaisummer.com/deep-learning-books-2022/)
+5. [Designing Machine Learning Systems](https://www.amazon.com/Designing-Machine-Learning-Systems-Production-Ready/dp/1098107969)
 
 ### Machine Learning Systems Design 
 1. [CS 329S: Machine Learning Systems Design](https://stanford-cs329s.github.io/syllabus.html)
@@ -130,6 +142,8 @@ way on the type of object or objects.
 #### Interview books
 1. [Machine learning Interview by Chip Huyen](https://huyenchip.com/ml-interviews-book/)
 2. [Machine Learning Interview questions](https://arxiv.org/abs/2201.00650)
+3. [Machine Learning Design Interview: Machine Learning System Design Interviewv](https://www.amazon.com/Machine-Learning-Design-Interview-System-ebook/dp/B09ZKJSKZ1/ref=tmm_kin_swatch_0?_encoding=UTF8&qid=&sr=)
+4. [medium](https://mlengineer.io/from-google-rejection-to-40-offers-71337a224ebe)
 
 
 ## Blogs which I follow and learn new things
